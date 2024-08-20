@@ -8,8 +8,13 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
 nav {
-    background-color: #1c4535;
+    background-color: black;
     color: white;
     padding: 16px;
 
@@ -18,12 +23,10 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
-    padding: 0;
 }
 
 nav ul li a {
@@ -37,8 +40,10 @@ nav ul li a:hover {
 
 .logo {
     margin-right: auto;
-    font-size: 1.5rem;
+    font-size: 1.125rem;
     font-weight: bolder;
+    text-transform: uppercase;
+    font-style: italic;
 }
 
 .current {
@@ -50,12 +55,9 @@ main {
     padding: 16px;
 }
 
-main ul {
-    padding-left: 40px;
-}
-
 main li {
     margin-bottom: 16px;
+    padding-left: 20px;
 }
 
 main h1 {
@@ -63,13 +65,68 @@ main h1 {
 }
 
 main h2 {
-    margin: 36px 0 20px;
+    margin: 18px 0 20px;
+    padding-top: 18px;
+    border-top: 1px solid gray;
+
 }
 
 main h3 {
     margin: -10px 0 10px;
     padding: 10px 0;
     background-color: white;
-    position: sticky;
-    top: 59.5px;
+    color: black;
 }
+
+.type {
+    border: 1px solid;
+    color: white;
+    font-size: 0.75rem;
+    padding: 0.075rem 0.5rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+}
+
+.gig {
+    color: green;
+    background-color: #00800011;
+    border-color: green;
+}
+
+.concert {
+    color: red;
+    background-color: #ff000011;
+    border-color: red;
+}
+
+.mall {
+    color: blue;
+    background-color: #0000ff11;
+    border-color: blue;
+}
+
+.attended {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+.attended .type {
+    color: white;
+    border: 1px solid #ffffff99;
+}
+
+.attended .mall {
+    background-color: blue;
+}
+
+.attended .concert {
+    background-color: red;
+}
+
+.attended .gig {
+    background-color: green;
+}
+
