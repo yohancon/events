@@ -55,10 +55,15 @@ main {
     padding: 16px;
 }
 
-main li {
-    margin-bottom: 16px;
-    padding-left: 20px;
+main > ul > li {
+    padding: 20px 0 20px 20px;
 }
+
+main > ul > li:nth-of-type(even) {
+    background-color: #80808033;
+}
+
+
 
 main h1 {
     margin-bottom: 16px;
@@ -72,42 +77,51 @@ main h2 {
 }
 
 main h3 {
-    margin: -10px 0 10px;
+    margin: 10px 0;
     padding: 10px 0;
     background-color: white;
     color: black;
 }
 
+br {
+    margin-bottom: 4px;
+}
+
 .type {
     border: 1px solid;
+    border-radius: 0.25rem;
     color: white;
     font-size: 0.75rem;
+    font-weight: bold;
     padding: 0.075rem 0.5rem;
-    border-radius: 1rem;
     text-transform: uppercase;
 }
 
 .gig {
-    color: green;
-    background-color: #00800011;
+    /* color: green; */
+    /* background-color: #00800011; */
+    background-color: green;
+    color: white;
     border-color: green;
 }
 
 .concert {
-    color: red;
-    background-color: #ff000011;
+    /* color: red;
+    background-color: #ff000011; */
+    background-color: red;
+    color: white;
     border-color: red;
 }
 
 .mall {
-    color: blue;
-    background-color: #0000ff11;
+    /* color: blue;
+    background-color: #0000ff11; */
+    background-color: blue;
+    color: white;
     border-color: blue;
 }
 
 .attended {
-    padding-top: 8px;
-    padding-bottom: 8px;
     border-radius: 8px;
     background-color: black;
     color: white;
