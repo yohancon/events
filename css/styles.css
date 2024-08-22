@@ -56,7 +56,7 @@ main {
 }
 
 main > ul > li {
-    padding: 20px 0 20px 20px;
+    padding: 10px 20px;
 }
 
 main > ul > li:nth-of-type(even) {
@@ -84,7 +84,11 @@ main h3 {
 }
 
 br {
-    margin-bottom: 4px;
+    margin-bottom: 0.2rem;
+}
+
+br:first-of-type {
+    margin-bottom: 0.25rem;
 }
 
 .type {
