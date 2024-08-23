@@ -125,7 +125,7 @@ br:first-of-type {
     border-color: blue;
 }
 
-.attended {
+main > ul > li.attended {
     border-radius: 8px;
     background-color: black;
     color: white;
