@@ -17,9 +17,6 @@ nav {
     background-color: black;
     color: white;
     padding: 16px;
-
-    position: sticky;
-    top: 0;
 }
 
 nav ul {
@@ -39,15 +36,10 @@ nav ul li a:hover {
 }
 
 .logo {
-    margin-right: auto;
     font-size: 1.125rem;
     font-weight: bolder;
     text-transform: uppercase;
     font-style: italic;
-}
-
-.current {
-    font-weight: bolder;
 }
 
 main {
@@ -56,24 +48,52 @@ main {
 }
 
 main > ul > li {
-    padding: 10px 20px;
+    padding: 16px 20px;
+    font-size: 0.8em;
+    border-top: 1px dotted gray;
 }
 
-main > ul > li:nth-of-type(even) {
-    background-color: #80808033;
+section > p {
+    color: gray;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 12px;
 }
 
+section > ul > li {
+    padding: 16px 20px;
+    font-size: 0.8em;
+    border-top: 1px dotted gray;
+}
+
+span.event-date {
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    padding: 6px;
+    font-size: 1.5rem;
+}
+
+span.event-date.today {
+    background-color: black;
+    color: white;
+}
 
 
 main h1 {
     margin-bottom: 16px;
 }
 
-main h2 {
-    margin: 18px 0 20px;
-    padding-top: 18px;
-    border-top: 1px solid gray;
+section {
+    border-top: 2px solid gray;
+    margin-top: 18px
+}
 
+main h2 {
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
 }
 
 main h3 {
@@ -95,40 +115,56 @@ br:first-of-type {
     border: 1px solid;
     border-radius: 0.25rem;
     color: white;
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     font-weight: bold;
     padding: 0.075rem 0.5rem;
     text-transform: uppercase;
 }
 
 .gig {
-    /* color: green; */
-    /* background-color: #00800011; */
     background-color: green;
     color: white;
     border-color: green;
 }
 
 .concert {
-    /* color: red;
-    background-color: #ff000011; */
     background-color: red;
     color: white;
     border-color: red;
 }
 
 .mall {
-    /* color: blue;
-    background-color: #0000ff11; */
     background-color: blue;
     color: white;
     border-color: blue;
+}
+
+.other {
+    background-color: gray;
+    color: white;
+    border-color: gray;
 }
 
 main > ul > li.attended {
     border-radius: 8px;
     background-color: black;
     color: white;
+}
+
+strong.show {
+    font-size: 1rem;
+}
+
+em.lineup {
+    color: #000000dd;
+}
+
+br.details {
+    margin-bottom: 12px;
+}
+
+span.time {
+    font-weight: bold;
 }
 
 .attended .type {
