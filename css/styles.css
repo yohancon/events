@@ -49,7 +49,7 @@ main {
 
 main > ul > li {
     padding: 16px 20px;
-    font-size: 0.8em;
+    font-size: 0.9em;
     border-top: 1px dotted gray;
 }
 
@@ -62,7 +62,7 @@ section > p {
 
 section > ul > li {
     padding: 16px 20px;
-    font-size: 0.8em;
+    font-size: 0.9em;
     border-top: 1px dotted gray;
 }
 
