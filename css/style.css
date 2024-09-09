@@ -1,0 +1,61 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 16px;
+}
+
+article {
+    padding: 16px 0 12px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #0000004a;
+}
+
+article:first-of-type {
+    border-top: 2px solid #0000004a;
+}
+
+h1 {
+    font-weight: lighter;
+    padding-bottom: 16px;
+}
+
+p {
+    padding-bottom: 16px;
+}
+
+div {
+    padding-bottom: 2px;
+}
+
+.title,
+.venue {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.title {
+    flex: 100%;
+}
+
+.venue, 
+.date {
+    color: #000000a7;
+    flex: content;
+}
+
+.date {
+    font-size: 14px;
+    text-align: end;
+}
+
+footer {
+    font-weight: bold;
+    padding: 0 16px 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
