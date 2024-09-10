@@ -8,23 +8,50 @@ main {
     padding: 16px;
 }
 
+p.filter-desc {
+    font-size: 12px;
+	font-weight: bold;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+button#new {
+    background-color: inherit;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 13px;
+	font-weight: bold;
+    padding: 4px 8px;
+    text-transform: uppercase;
+}
+
+button#new.clicked {
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 article {
     padding: 16px 0 12px;
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 2px solid #0000004a;
+    border-bottom: 0.5px solid #0000004a;
 }
 
 article:first-of-type {
     border-top: 2px solid #0000004a;
 }
-
-h1 {
-    font-weight: lighter;
-    padding-bottom: 16px;
+article:last-of-type {
+    border-bottom: 2px solid #0000004a;
 }
 
-p {
+h1,
+p.main-desc,
+section {
+    /* font-weight: lighter; */
     padding-bottom: 16px;
 }
 
@@ -46,6 +73,10 @@ div {
 .date {
     color: #000000a7;
     flex: content;
+}
+
+.venue {
+    font-size: 14px;
 }
 
 .date {

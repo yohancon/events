@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+    <title>Upcoming Events • yohancon</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <main class="main">
         <h1>Upcoming Events</h1>
-        <p>Details are subject to change without prior notice of the artist or event promoter. Follow their official social media accounts for the latest information.</p>
+        <p class="main-desc">Details are subject to change without prior notice of the artist or event promoter. Follow their official social media accounts for the latest information.</p>
+        <section>
+            <p class="filter-desc">Filter by:</p>
+            <button id="new">Just Announced</button>
+        </section>
 
     </main>
     <footer>
@@ -20,32 +24,63 @@
     <script src="./js/venues.js"></script>
     <script src="./js/events.js"></script>
     <script>
-        const board = document.querySelector('main');
-        events.sort((a, b) => a.date - b.date);
-        const finalList = events.filter(item => (item.date >= new Date()));
+        function createBoard(arr) {
+            for (const item of arr) {
+                const row = document.createElement('article');
+                
+                const row_head = document.createElement('div');
+                row_head.className = "title";
+                row_head.textContent = `${item.artist.join(" • ")}`;
 
+                const row_venue = document.createElement('div');
+                row_venue.className = "venue";
+                row_venue.textContent = `${item.venue}`;
 
+                const row_date = document.createElement('div');
+                row_date.className = "date";
+                row_date.textContent = `${item.date.toLocaleDateString()}`;
 
-        for (const item of finalList) {
-            const row = document.createElement('article');
-            
-            const row_head = document.createElement('div');
-            row_head.className = "title";
-            row_head.textContent = `${item.artist.join(" • ")}`;
-
-            const row_venue = document.createElement('div');
-            row_venue.className = "venue";
-            row_venue.textContent = `${item.venue}`;
-
-            const row_date = document.createElement('div');
-            row_date.className = "date";
-            row_date.textContent = `${item.date.toLocaleDateString()}`;
-
-            row.appendChild(row_head);
-            row.appendChild(row_venue);
-            row.appendChild(row_date);
-            board.appendChild(row);
+                row.appendChild(row_head);
+                row.appendChild(row_venue);
+                row.appendChild(row_date);
+                board.appendChild(row);
+            }
         }
+
+        function removeBoard() {
+            const boardItems = Array.from(document.querySelectorAll("article"));
+        
+            for (const item of boardItems) {
+                board.removeChild(item);
+            }
+        }
+
+        const board = document.querySelector('main');
+        const btnNew = document.querySelector('#new');
+        
+        const finalList = events.filter(item => (item.date >= new Date()));
+        finalList.sort((a, b) => a.date - b.date);
+
+        btnNew.addEventListener('click', (e) => {
+            btnNew.classList.toggle("clicked");
+
+            if(btnNew.classList.contains("clicked")) {
+                const list = events.filter(item => (item.announced <= new Date()));
+                list.sort((a, b) => b.announced - a.announced);
+
+                removeBoard();
+                createBoard(list);
+            } else {
+                const list = events.filter(item => (item.date >= new Date()));
+                list.sort((a, b) => a.date - b.date);
+
+                removeBoard();
+                createBoard(list);
+            }
+        });
+
+        createBoard(finalList);
+
     </script>
 </body>
 </html>
