@@ -8,14 +8,15 @@ main {
     padding: 16px;
 }
 
-p.sort-desc {
+p.sort-desc,
+p.filter-desc {
     font-size: 12px;
 	font-weight: bold;
     padding-bottom: 8px;
     text-transform: uppercase;
 }
 
-button#new {
+button {
     background-color: inherit;
     border: 1px solid black;
     border-radius: 8px;
@@ -25,7 +26,7 @@ button#new {
     text-transform: uppercase;
 }
 
-button#new.clicked {
+button.clicked {
     background-color: black;
     color: white;
 }
@@ -50,7 +51,8 @@ article:last-of-type {
 
 h1,
 p.main-desc,
-section {
+section.sort,
+section.filter {
     /* font-weight: lighter; */
     padding-bottom: 16px;
 }

@@ -6,7 +6,8 @@ const events = [
                     "The Vowels They Orbit", 
                     "Gloryen",
                 ], 
-        date: new Date("2024-09-11T20:00:00"), 
+        date: new Date("2024-09-11T20:00:00"),
+        type: "gig",
         venue: venues.bistro
     },
     {
@@ -14,6 +15,7 @@ const events = [
                     "Hindley Street Country Club",
                 ],
         date: new Date("2024-09-29T20:00:00"),
+        type: "concert",
         venue: venues.frontier
     },
     {
@@ -21,6 +23,7 @@ const events = [
                     "SB19",
                 ],
         date: new Date("2024-10-27T20:00:00"),
+        type: "concert",
         venue: venues.araneta
     },
     {
@@ -28,6 +31,7 @@ const events = [
                     "SB19",
                 ],
         date: new Date("2024-10-26T20:00:00"),
+        type: "concert",
         venue: venues.araneta
     },
     {
@@ -37,6 +41,7 @@ const events = [
                     "Shanni",
                 ],
         date: new Date("2024-09-28T19:00:00"),
+        type: "gig",
         venue: venues.onetwothree
     },
     {
@@ -51,6 +56,7 @@ const events = [
                     "Ice Reyes",
                 ],
         date: new Date("2024-09-20T16:00:00"),
+        type: "mall",
         venue: venues.smlaspinas
     },
     {
@@ -61,6 +67,7 @@ const events = [
                     "We Got",
                 ],
         date: new Date("2024-09-20T20:00:00"),
+        type: "gig",
         venue: venues.nineteeneast
     },
     {
@@ -68,6 +75,7 @@ const events = [
                     "Paolo Santos Trio",
                 ],
         date: new Date("2024-09-17"),
+        type: "gig",
         venue: venues.twelvemonkeys
     },
     {
@@ -79,6 +87,7 @@ const events = [
                     "Waiian",
                 ],
         date: new Date("2024-09-07T17:00:00"),
+        type: "gig",
         venue: venues.metrotent
     },
     {
@@ -90,6 +99,7 @@ const events = [
                     "Tarsius",
                 ],
         date: new Date("2024-09-08T17:00:00"),
+        type: "gig",
         venue: venues.metrotent
     },
     {
@@ -103,6 +113,7 @@ const events = [
                     "Chain Messages",
                 ],
         date: new Date("2024-10-04"),
+        type: "gig",
         venue: venues.rabbithole
     },
     {
@@ -110,6 +121,7 @@ const events = [
                     "Ely Buendia",
                 ],
         date: new Date("2024-09-14T20:00:00"),
+        type: "concert",
         venue: venues.newport
     },
     {
@@ -124,6 +136,7 @@ const events = [
                     "Hey, Leona",
                 ],
         date: new Date("2024-10-26T17:00:00"),
+        type: "gig",
         venue: venues.centralcraftbalanga
     },
     {
@@ -132,6 +145,7 @@ const events = [
                 ],
         date: new Date("2025-01-29"),
         announced: new Date("2024-09-09T11:41:00"),
+        type: "concert",
         venue: venues.moaarena
     },
     {
@@ -170,6 +184,7 @@ const events = [
                 ],
         date: new Date("2024-10-15T19:00:00"),
         announced: new Date("2024-09-07T10:00:00"),
+        type: "concert",
         venue: venues.moaarena
     },
     {
@@ -177,6 +192,7 @@ const events = [
                     "Overtone",
                 ],
         date: new Date("2024-09-15"),
+        type: "gig",
         venue: venues.twelvemonkeys
     },
     {
@@ -190,6 +206,7 @@ const events = [
                     "Lazy Daisy",
                 ],
         date: new Date("2024-09-14T20:00:00"),
+        type: "gig",
         venue: venues.gighouse
     },
     {
@@ -201,6 +218,7 @@ const events = [
                     "Sean Archer",
                 ],
         date: new Date("2024-09-21T18:00:00"),
+        type: "gig",
         venue: venues.imajin
     },
     {
@@ -214,6 +232,7 @@ const events = [
                     "ULTRAVIOLET",
                 ],
         date: new Date("2024-09-13"),
+        type: "gig",
         venue: venues.saguijo
     },
     {
@@ -221,6 +240,7 @@ const events = [
                     "AJAA",
                 ],
         date: new Date("2024-09-28T16:00:00"),
+        type: "mall",
         venue: venues.galleria
     },
     {
@@ -234,6 +254,7 @@ const events = [
                     "Billz",
                 ],
         date: new Date("2024-09-22T19:00:00"),
+        type: "gig",
         venue: venues.sarisari
     },
     {
@@ -242,6 +263,7 @@ const events = [
                     "Josh Cullen",
                 ],
         date: new Date("2024-09-28"),
+        type: "concert",
         venue: venues.frontier
     },
     {
@@ -255,6 +277,7 @@ const events = [
                     "Brisom",
                 ],
         date: new Date("2024-09-14"),
+        type: "gig",
         venue: venues.saguijo
     },
     {
@@ -268,6 +291,7 @@ const events = [
                     "Ysanygo",
                 ],
         date: new Date("2024-09-13T20:00:00"),
+        type: "gig",
         venue: venues.sarisari
     },
     {
@@ -276,6 +300,7 @@ const events = [
                     "Orange & Lemons",
                 ],
         date: new Date("2024-10-18T20:00:00"),
+        type: "concert",
         venue: venues.metrotent
     },
     {
@@ -283,6 +308,7 @@ const events = [
                     "Franco",
                 ],
         date: new Date("2024-09-27"),
+        type: "gig",
         venue: venues.twelvemonkeys
     },
     {
@@ -291,6 +317,7 @@ const events = [
                     "2NE1",
                 ],
         date: new Date("2024-11-16"),
+        type: "concert",
         venue: venues.tba
     },
     {
@@ -301,6 +328,7 @@ const events = [
                     "Pragma",
                 ],
         date: new Date("2024-09-12"),
+        type: "gig",
         venue: venues.twelvemonkeys
     },
     {
@@ -309,6 +337,7 @@ const events = [
                     "Death of Heather",
                 ],
         date: new Date("2024-11-10"),
+        type: "concert",
         venue: venues.eastside
     },
     {
@@ -317,6 +346,7 @@ const events = [
                     "HONNE",
                 ],
         date: new Date("2024-09-23"),
+        type: "gig",
         venue: venues.tedellis
     },
     {
@@ -324,6 +354,7 @@ const events = [
                     "VMX Girlfriends",
                 ],
         date: new Date("2024-09-13T20:00:00"),
+        type: "gig",
         venue: venues.vivacafe
     },
     {
@@ -334,6 +365,7 @@ const events = [
                     "Dilly Dally",
                 ],
         date: new Date("2024-09-19"),
+        type: "gig",
         venue: venues.twelvemonkeys
     },
     {
@@ -341,6 +373,7 @@ const events = [
                     "MYMP",
                 ],
         date: new Date("2024-09-21"),
+        type: "gig",
         venue: venues.padrino
     },
     {
@@ -356,6 +389,7 @@ const events = [
                     "emma bot",
                 ],
         date: new Date("2024-09-13T19:00:00"),
+        type: "gig",
         venue: venues.mows
     },
     {
@@ -364,6 +398,7 @@ const events = [
                     "CHNDTR",
                 ],
         date: new Date("2024-09-13"),
+        type: "gig",
         venue: venues.kalmabar
     },
     {
@@ -375,6 +410,7 @@ const events = [
                     "Sunken Roots",
                 ],
         date: new Date("2024-09-14T20:30:00"),
+        type: "gig",
         venue: venues.bistro
     },
     {
@@ -383,6 +419,7 @@ const events = [
                     "UNIS",
                 ],
         date: new Date("2024-10-25T19:00:00"),
+        type: "concert",
         venue: venues.frontier
     },
     {
@@ -391,6 +428,7 @@ const events = [
                     "PABLO",
                 ],
         date: new Date("2024-09-15T16:00:00"),
+        type: "mall",
         venue: venues.rmgalleria
     },
     {
@@ -399,6 +437,7 @@ const events = [
                     "PABLO",
                 ],
         date: new Date("2024-09-22"),
+        type: "mall",
         venue: venues.rmilocos
     },
     {
@@ -407,6 +446,7 @@ const events = [
                     "PABLO",
                 ],
         date: new Date("2024-09-29"),
+        type: "mall",
         venue: venues.rmgalleriasouth
     },
     {
@@ -416,6 +456,7 @@ const events = [
                     "7 Foot Jr",
                 ],
         date: new Date("2024-09-14T20:00:00"),
+        type: "gig",
         venue: venues.nineteeneast
     },
     {
@@ -429,6 +470,7 @@ const events = [
                     "25hearts",
                 ],
         date: new Date("2024-09-21"),
+        type: "gig",
         venue: venues.onetwothree
     },
     {
@@ -440,6 +482,7 @@ const events = [
                     "Young Cocoa",
                 ],
         date: new Date("2024-09-13T19:00:00"),
+        type: "gig",
         venue: venues.onetwothree
     },
     {
@@ -453,6 +496,7 @@ const events = [
                     "Better Days",
                 ],
         date: new Date("2024-09-12T19:30:00"),
+        type: "gig",
         venue: venues.bistro
     },
     {
@@ -461,6 +505,7 @@ const events = [
                     "HORI7ON",
                 ],
         date: new Date("2024-11-03T18:00:00"),
+        type: "concert",
         venue: venues.moaarena
     },
     {
@@ -468,6 +513,7 @@ const events = [
                     "The Ridleys",
                 ],
         date: new Date("2024-11-16"),
+        type: "concert",
         venue: venues.musicmuseum
     },
     {
@@ -479,6 +525,7 @@ const events = [
                     "The Revisors",
                 ],
         date: new Date("2024-09-13T20:00:00"),
+        type: "gig",
         venue: venues.rabbithole
     },
     {
@@ -490,6 +537,7 @@ const events = [
                     "Dally",
                 ],
         date: new Date("2024-09-28T21:00:00"),
+        type: "gig",
         venue: venues.bistro
     },
     {
@@ -498,6 +546,7 @@ const events = [
                     "Barbie Almalbis",
                 ],
         date: new Date("2024-09-17"),
+        type: "gig",
         venue: venues.redrhino
     },
     {
@@ -506,6 +555,7 @@ const events = [
                     "SPIT",
                 ],
         date: new Date("2024-09-10T21:00:00"),
+        type: "gig",
         venue: venues.twelvemonkeys
     },
     {
@@ -514,6 +564,7 @@ const events = [
                     "Peter Caimbon",
                 ],
         date: new Date("2024-09-11T21:30:00"),
+        type: "gig",
         venue: venues.twelvemonkeys
     },
     {
@@ -530,6 +581,7 @@ const events = [
                     "Band Ni Cat",
                 ],
         date: new Date("2024-11-15"),
+        type: "gig",
         venue: venues.milenya
     },
     {
@@ -545,6 +597,7 @@ const events = [
                     "Achilles Vee",
                 ],
         date: new Date("2024-11-16"),
+        type: "gig",
         venue: venues.bossbar
     },
     {
@@ -553,6 +606,7 @@ const events = [
                     "The Plug",
                 ],
         date: new Date("2024-09-11T21:30:00"),
+        type: "gig",
         venue: venues.hardrockmnl
     },
     {
@@ -563,6 +617,7 @@ const events = [
                     "Over October",
                 ],
         date: new Date("2024-12-20"),
+        type: "concert",
         venue: venues.upsunken
     },
     {
@@ -572,6 +627,7 @@ const events = [
                     "Dylan Menor",
                 ],
         date: new Date("2024-09-14"),
+        type: "mall",
         venue: venues.rmgalleria
     },
     {
@@ -580,6 +636,7 @@ const events = [
                     "David Archuleta",
                 ],
         date: new Date("2024-09-14"),
+        type: "concert",
         venue: venues.frontier
     },
     {
@@ -587,6 +644,7 @@ const events = [
                     "Arthur Nery",
                 ],
         date: new Date("2024-10-25T20:00:00"),
+        type: "concert",
         venue: venues.araneta
     },
     {
@@ -595,6 +653,7 @@ const events = [
                     "Cloud 7",
                 ],
         date: new Date("2024-09-14T13:45:00"),
+        type: "mall",
         venue: venues.smxmanila
     },
     {
@@ -604,6 +663,7 @@ const events = [
                     "AJAA",
                 ],
         date: new Date("2024-09-15T13:45:00"),
+        type: "mall",
         venue: venues.smxmanila
     },
     {
@@ -613,6 +673,7 @@ const events = [
                     "Ella May Saison",
                 ],
         date: new Date("2024-11-09T20:00:00"),
+        type: "concert",
         venue: venues.theatresolaire
     },
     {
@@ -625,6 +686,7 @@ const events = [
                     "Medyo Maybe",
                 ],
         date: new Date("2024-09-14T19:30:00"),
+        type: "gig",
         venue: venues.hangoutresto
     },
     {
@@ -634,6 +696,7 @@ const events = [
                     "Yah Bles",
                 ],
         date: new Date("2024-09-10T16:00:00"),
+        type: "gig",
         venue: venues.etoncentris
     },
     {
@@ -643,6 +706,7 @@ const events = [
                     "Janine Teñoso",
                 ],
         date: new Date("2024-09-21T20:00:00"),
+        type: "concert",
         venue: venues.theatresolaire
     },
     {
@@ -652,6 +716,7 @@ const events = [
                 ],
         date: new Date("2024-11-29"),
         announced: new Date("2024-09-10T12:00:00"),
+        type: "concert",
         venue: venues.samsunghall
     },
     {
@@ -661,6 +726,7 @@ const events = [
                 ],
         date: new Date("2024-10-05"),
         announced: new Date("2024-09-10T12:06:00"),
+        type: "concert",
         venue: venues.pharena
     },
     {
@@ -669,6 +735,7 @@ const events = [
                     "Sound Ministry",
                 ],
         date: new Date("2024-09-14"),
+        type: "gig",
         venue: venues.districtone
     },
     {
@@ -679,6 +746,7 @@ const events = [
                     "Sayawatha",
                 ],
         date: new Date("2024-10-11T18:30:00"),
+        type: "concert",
         venue: venues.marianauditorium
     },
     {
@@ -687,6 +755,7 @@ const events = [
                     "The Bootleg Beatles",
                 ],
         date: new Date("2024-10-26T20:00:00"),
+        type: "concert",
         venue: venues.theatresolaire
     },
     {
@@ -703,6 +772,7 @@ const events = [
                     "Achilles Vee",
                 ],
         date: new Date("2024-09-12"),
+        type: "gig",
         venue: venues.eightyeight
     },
     {
@@ -711,6 +781,7 @@ const events = [
                     "Big Time Rush",
                 ],
         date: new Date("2024-10-17"),
+        type: "concert",
         venue: venues.frontier
     },
     {
@@ -724,6 +795,7 @@ const events = [
                     "Wishy Washy",
                 ],
         date: new Date("2024-09-29"),
+        type: "gig",
         venue: venues.eightyeight
     },
     {
@@ -732,6 +804,7 @@ const events = [
                     "Press Hit Play",
                 ],
         date: new Date("2024-09-14T16:00:00"),
+        type: "mall",
         venue: venues.malaboncitisquare
     },
     {
@@ -749,6 +822,7 @@ const events = [
                     "Rue Monday",
                 ],
         date: new Date("2024-09-28T18:00:00"),
+        type: "gig",
         venue: venues.cityboymain
     },
     {
@@ -764,6 +838,7 @@ const events = [
                     "Forest Rituals",
                 ],
         date: new Date("2024-09-14T20:00:00"),
+        type: "gig",
         venue: venues.unknownpub
     },
     {
@@ -776,6 +851,7 @@ const events = [
                 ],
         date: new Date("2024-09-14T14:30:00"),
         announced: new Date("2024-09-09T21:00:00"),
+        type: "mall",
         venue: venues.smxmanila
     },
     {
@@ -785,6 +861,7 @@ const events = [
                     "Alon",
                 ],
         date: new Date("2024-09-20"),
+        type: "gig",
         venue: venues.takeover
     },
     {
@@ -797,6 +874,7 @@ const events = [
                     "ASTER",
                 ],
         date: new Date("2024-09-22"),
+        type: "concert",
         venue: venues.smxmanila
     },
     {
@@ -805,6 +883,7 @@ const events = [
                     "Air Supply",
                 ],
         date: new Date("2024-12-05"),
+        type: "concert",
         venue: venues.smxbacolod
     },
     {
@@ -813,6 +892,7 @@ const events = [
                     "Katrina Velarde",
                 ],
         date: new Date("2024-10-11T20:00:00"),
+        type: "concert",
         venue: venues.frontier
     },
     {
@@ -831,6 +911,7 @@ const events = [
                     "Urbandub",
                 ],
         date: new Date("2024-10-12"),
+        type: "concert",
         venue: venues.worldtrade
     },
     {
@@ -847,6 +928,7 @@ const events = [
                     "9M88",
                 ],
         date: new Date("2024-10-13"),
+        type: "concert",
         venue: venues.worldtrade
     },
     {
@@ -855,6 +937,7 @@ const events = [
                     "keshi",
                 ],
         date: new Date("2025-03-04"),
+        type: "concert",
         venue: venues.moaarena
     },
     {
@@ -867,6 +950,7 @@ const events = [
                     "YGIG",
                 ],
         date: new Date("2024-09-14T20:00:00"),
+        type: "concert",
         venue: venues.theatresolaire
     },
     {
@@ -876,6 +960,7 @@ const events = [
                 ],
         date: new Date("2024-09-13T18:00:00"),
         announced: new Date("2024-09-10T13:17:00"),
+        type: "mall",
         venue: venues.marketmarket
     },
     {
@@ -883,6 +968,7 @@ const events = [
                     "Bruno Major",
                 ],
         date: new Date("2024-09-11T20:00:00"),
+        type: "concert",
         venue: venues.piccplenary
     },
     {
@@ -919,6 +1005,7 @@ const events = [
                     "Similar Sky",
                 ],
         date: new Date("2024-09-28"),
+        type: "concert",
         venue: venues.bridgetowne
     },
     {
@@ -930,6 +1017,7 @@ const events = [
                 ],
         date: new Date("2024-09-11T16:00:00"),
         announced: new Date("2024-09-11T10:00:00"),
+        type: "gig",
         venue: venues.vmtaguig
     },
     {
@@ -940,6 +1028,7 @@ const events = [
                 ],
         date: new Date("2024-09-20T20:00:00"),
         announced: new Date("2024-09-03T05:20:00"),
+        type: "gig",
         venue: venues.junction
     },
     {
@@ -951,6 +1040,7 @@ const events = [
                     "Khianna",
                 ],
         date: new Date("2024-09-14T14:00:00"),
+        type: "mall",
         venue: venues.festivalmall
     },
     {
@@ -970,6 +1060,7 @@ const events = [
                     "DJ Via Chan",
                 ],
         date: new Date("2024-10-05"),
+        type: "concert",
         venue: venues.citydimare
     },
     {
@@ -977,6 +1068,7 @@ const events = [
                     "Cloud 7",
                 ],
         date: new Date("2024-09-15T16:00:00"),
+        type: "mall",
         venue: venues.smstamesa
     },
     {
@@ -984,6 +1076,7 @@ const events = [
                     "Silk",
                 ],
         date: new Date("2024-09-28"),
+        type: "gig",
         venue: venues.takeover
     },
     {
@@ -998,6 +1091,7 @@ const events = [
                     "Pedicab",
                 ],
         date: new Date("2024-10-26T18:00:00"),
+        type: "gig",
         venue: venues.onetwothree
     },
     {
@@ -1007,6 +1101,7 @@ const events = [
                     "Marco Sison",
                 ],
         date: new Date("2024-11-22T19:30:00"),
+        type: "concert",
         venue: venues.musicmuseum
     },
     {
@@ -1014,6 +1109,7 @@ const events = [
                     "Eastside",
                 ],
         date: new Date("2024-09-21T23:00:00"),
+        type: "gig",
         venue: venues.bar360
     },
     {
@@ -1024,6 +1120,7 @@ const events = [
                     "6cyclemind",
                 ],
         date: new Date("2024-09-15T18:00:00"),
+        type: "gig",
         venue: venues.auslquadrangle
     },
     {
@@ -1032,6 +1129,7 @@ const events = [
                     "Andrew E.",
                 ],
         date: new Date("2024-12-11T20:00:00"),
+        type: "concert",
         venue: venues.frontier
     },
     {
@@ -1039,6 +1137,7 @@ const events = [
                     "SNTA",
                 ],
         date: new Date("2024-09-11T20:00:00"),
+        type: "gig",
         venue: venues.vivacafe
     },
     {
@@ -1049,6 +1148,7 @@ const events = [
                     "1621BC",
                 ],
         date: new Date("2024-09-13T17:00:00"),
+        type: "gig",
         venue: venues.natlteachers
     },
     {
@@ -1056,6 +1156,7 @@ const events = [
                     "Tanya Markova",
                 ],
         date: new Date("2024-09-21"),
+        type: "gig",
         venue: venues.bistro
     },
     {
@@ -1064,6 +1165,7 @@ const events = [
                     "BINI",
                 ],
         date: new Date("2024-11-18"),
+        type: "concert",
         venue: venues.araneta
     },
     {
@@ -1072,6 +1174,7 @@ const events = [
                     "BINI",
                 ],
         date: new Date("2024-11-17"),
+        type: "concert",
         venue: venues.araneta
     },
     {
@@ -1080,6 +1183,7 @@ const events = [
                     "BINI",
                 ],
         date: new Date("2024-11-16"),
+        type: "concert",
         venue: venues.araneta
     },
     {
@@ -1091,6 +1195,7 @@ const events = [
                     "BLASTER",
                 ],
         date: new Date("2024-09-13T19:30:00"),
+        type: "gig",
         venue: venues.dininghall
     },
     {
@@ -1099,6 +1204,7 @@ const events = [
                     "RAV4",
                 ],
         date: new Date("2024-09-13"),
+        type: "gig",
         venue: venues.landos
     },
     {
@@ -1111,6 +1217,7 @@ const events = [
                     "Thirds",
                 ],
         date: new Date("2024-09-11T18:00:00"),
+        type: "gig",
         venue: venues.mows
     },
     {
@@ -1118,6 +1225,7 @@ const events = [
                     "Matt Maltese",
                 ],
         date: new Date("2024-11-09"),
+        type: "concert",
         venue: venues.skydome
     },
     {
@@ -1126,6 +1234,7 @@ const events = [
                     "Martin Nievera",
                 ],
         date: new Date("2024-09-27T20:00:00"),
+        type: "concert",
         venue: venues.araneta
     },
     {
@@ -1133,6 +1242,7 @@ const events = [
                     "Red Velvet",
                 ],
         date: new Date("2024-09-14T18:00:00"),
+        type: "concert",
         venue: venues.moaarena
     },
     {
@@ -1142,6 +1252,7 @@ const events = [
                 ],
         date: new Date("2024-09-28T18:00:00"),
         announced: new Date("2024-09-09T19:01:00"),
+        type: "gig",
         venue: venues.vivacafe
     },
     {
@@ -1155,6 +1266,7 @@ const events = [
                 ],
         date: new Date("2024-11-14T18:00:00"),
         announced: new Date("2024-09-05T18:00:00"),
+        type: "concert",
         venue: venues.skydome
     },
     {
@@ -1162,6 +1274,7 @@ const events = [
                     "The Red Jumpsuit Apparatus",
                 ],
         date: new Date("2024-09-11T20:00:00"),
+        type: "concert",
         venue: venues.smxdavao
     },
     {
@@ -1169,6 +1282,7 @@ const events = [
                     "The Red Jumpsuit Apparatus",
                 ],
         date: new Date("2024-09-12T20:00:00"),
+        type: "concert",
         venue: venues.skydome
     },
     {
@@ -1177,6 +1291,7 @@ const events = [
                     "TJ Monterde",
                 ],
         date: new Date("2024-09-26T19:00:00"),
+        type: "mall",
         venue: venues.rmiligan
     },
     {
@@ -1186,6 +1301,7 @@ const events = [
                 ],
         date: new Date("YYYY-MM-DDThh:mm:ss"),
         announced: new Date("YYYY-MM-DDThh:mm:ss"),
+        type: "",
         venue: venues.tba
     },
 ];
