@@ -169,6 +169,7 @@ const events = [
                     "Tus Brothers",
                 ],
         date: new Date("2024-10-15T19:00:00"),
+        announced: new Date("2024-09-07T10:00:00"),
         venue: venues.moaarena
     },
     {
@@ -260,7 +261,11 @@ const events = [
         name: "Kai del Rio Double Single Launch",
         artist: [
                     "Kai Del Rio",
+                    "Sponge Cola",
                     "Barbie Almalbis",
+                    "bird.",
+                    "I Belong To The Zoo",
+                    "Ysanygo",
                 ],
         date: new Date("2024-09-13T20:00:00"),
         venue: venues.sarisari
@@ -366,7 +371,7 @@ const events = [
         artist: [
                     "The Chongkeys",
                     "Brownman Revival",
-                    "Rudeboy MNL",
+                    "Rudebwoy MNL",
                     "Sunken Roots",
                 ],
         date: new Date("2024-09-14T20:30:00"),
@@ -385,7 +390,7 @@ const events = [
         artist: [
                     "PABLO",
                 ],
-        date: new Date("2024-09-15"),
+        date: new Date("2024-09-15T16:00:00"),
         venue: venues.rmgalleria
     },
     {
@@ -614,9 +619,9 @@ const events = [
         name: "SIGA Two Leg Tour",
         artist: [
                     "One Click Straight",
-                    "Chain Messages",
                     "Matoki",
-                    "Silent Discc",
+                    "Chain Messages",
+                    "Silent Disco",
                     "Medyo Maybe",
                 ],
         date: new Date("2024-09-14T19:30:00"),
@@ -654,7 +659,7 @@ const events = [
         artist: [
                     "Olivia Rodrigo",
                 ],
-        date: new Date("2024-11-05"),
+        date: new Date("2024-10-05"),
         announced: new Date("2024-09-10T12:06:00"),
         venue: venues.pharena
     },
@@ -879,6 +884,300 @@ const events = [
                 ],
         date: new Date("2024-09-11T20:00:00"),
         venue: venues.piccplenary
+    },
+    {
+        name: "Circus Music Festival 5",
+        artist: [
+                    "Ely Buendia",
+                    "Parokya Ni Edgar",
+                    "Kamikazee",
+                    "TJ Monterde",
+                    "December Avenue",
+                    "Gloc-8",
+                    "Elmo & Arkin with Hardware Syndrome",
+                    "Silent Sanctuary",
+                    "Spongecola",
+                    "Cup of Joe",
+                    "Hale",
+                    "Orange & Lemons",
+                    "Rocksteddy",
+                    "Brownman Revival",
+                    "Nobita",
+                    "Dionela",
+                    "Rob Deniel",
+                    "Jireh Lim",
+                    "Cueshe",
+                    "This Band",
+                    "Join the Club",
+                    "Soapdish",
+                    "Over October",
+                    "Releast Cram",
+                    "Munimuni",
+                    "Sugarcane",
+                    "The Ridleys",
+                    "Tricia",
+                    "Similar Sky",
+                ],
+        date: new Date("2024-09-28"),
+        venue: venues.bridgetowne
+    },
+    {
+        name: "Wish Bus",
+        artist: [
+                    "Destiny Palisoc",
+                    "Noel Cabangon & Joey Generoso",
+                    "BGYO",
+                ],
+        date: new Date("2024-09-11T16:00:00"),
+        announced: new Date("2024-09-11T10:00:00"),
+        venue: venues.vmtaguig
+    },
+    {
+        artist: [
+                    "Orange & Lemons",
+                    "Blind Stereo Moon",
+                    "Shumi",
+                ],
+        date: new Date("2024-09-20T20:00:00"),
+        announced: new Date("2024-09-03T05:20:00"),
+        venue: venues.junction
+    },
+    {
+        name: "Drag to Store",
+        artist: [
+                    "Brigiding",
+                    "Zymba Ding",
+                    "Tita Baby",
+                    "Khianna",
+                ],
+        date: new Date("2024-09-14T14:00:00"),
+        venue: venues.festivalmall
+    },
+    {
+        name: "Fusion X Cebu",
+        artist: [
+                    "Nadine Lustre",
+                    "December Avenue",
+                    "Zack Tabudlo",
+                    "KAIA",
+                    "Maki",
+                    "Jan Francis Alinsonorin",
+                    "Jovie Loon",
+                    "Nica Jañola",
+                    "Sugbo Brawta",
+                    "DJ Victor Jao",
+                    "DJ Matt",
+                    "DJ Via Chan",
+                ],
+        date: new Date("2024-10-05"),
+        venue: venues.citydimare
+    },
+    {
+        artist: [
+                    "Cloud 7",
+                ],
+        date: new Date("2024-09-15T16:00:00"),
+        venue: venues.smstamesa
+    },
+    {
+        artist: [
+                    "Silk",
+                ],
+        date: new Date("2024-09-28"),
+        venue: venues.takeover
+    },
+    {
+        name: "Gaboom!",
+        artist: [
+                    "Teeth",
+                    "Sandwich",
+                    "Cambio",
+                    "Party Pace",
+                    "Blaster",
+                    "One Click Straight",
+                    "Pedicab",
+                ],
+        date: new Date("2024-10-26T18:00:00"),
+        venue: venues.onetwothree
+    },
+    {
+        name: "Ang Guwapo at Ang Masuwerte",
+        artist: [
+                    "Rey Valera",
+                    "Marco Sison",
+                ],
+        date: new Date("2024-11-22T19:30:00"),
+        venue: venues.musicmuseum
+    },
+    {
+        artist: [
+                    "Eastside",
+                ],
+        date: new Date("2024-09-21T23:00:00"),
+        venue: venues.bar360
+    },
+    {
+        name: "The Arellano Law 2024 Post-Bar Celebration",
+        artist: [
+                    "The Juans",
+                    "Nino Alejandro",
+                    "6cyclemind",
+                ],
+        date: new Date("2024-09-15T18:00:00"),
+        venue: venues.auslquadrangle
+    },
+    {
+        name: "Andrew E. 1 Time For Your Mind",
+        artist: [
+                    "Andrew E.",
+                ],
+        date: new Date("2024-12-11T20:00:00"),
+        venue: venues.frontier
+    },
+    {
+        artist: [
+                    "SNTA",
+                ],
+        date: new Date("2024-09-11T20:00:00"),
+        venue: venues.vivacafe
+    },
+    {
+        name: "Starpop Campus Tour",
+        artist: [
+                    "BGYO",
+                    "Gello Marquez",
+                    "1621BC",
+                ],
+        date: new Date("2024-09-13T17:00:00"),
+        venue: venues.natlteachers
+    },
+    {
+        artist: [
+                    "Tanya Markova",
+                ],
+        date: new Date("2024-09-21"),
+        venue: venues.bistro
+    },
+    {
+        name: "Grand BINIverse",
+        artist: [
+                    "BINI",
+                ],
+        date: new Date("2024-11-18"),
+        venue: venues.araneta
+    },
+    {
+        name: "Grand BINIverse",
+        artist: [
+                    "BINI",
+                ],
+        date: new Date("2024-11-17"),
+        venue: venues.araneta
+    },
+    {
+        name: "Grand BINIverse",
+        artist: [
+                    "BINI",
+                ],
+        date: new Date("2024-11-16"),
+        venue: venues.araneta
+    },
+    {
+        name: "SIGA Two Leg Tour",
+        artist: [
+                    "One Click Straight",
+                    "Chain Messages",
+                    "Matoki",
+                    "BLASTER",
+                ],
+        date: new Date("2024-09-13T19:30:00"),
+        venue: venues.dininghall
+    },
+    {
+        artist: [
+                    "Mark Michael Garcia",
+                    "RAV4",
+                ],
+        date: new Date("2024-09-13"),
+        venue: venues.landos
+    },
+    {
+        name: "Anorak Live in Manila",
+        artist: [
+                    "Anorak",
+                    "As Silent As The Forest",
+                    "Musical O",
+                    "Ploverstream",
+                    "Thirds",
+                ],
+        date: new Date("2024-09-11T18:00:00"),
+        venue: venues.mows
+    },
+    {
+        artist: [
+                    "Matt Maltese",
+                ],
+        date: new Date("2024-11-09"),
+        venue: venues.skydome
+    },
+    {
+        name: "The King 4 Ever",
+        artist: [
+                    "Martin Nievera",
+                ],
+        date: new Date("2024-09-27T20:00:00"),
+        venue: venues.araneta
+    },
+    {
+        artist: [
+                    "Red Velvet",
+                ],
+        date: new Date("2024-09-14T18:00:00"),
+        venue: venues.moaarena
+    },
+    {
+        name: "Alamat Live at Viva Cafe",
+        artist: [
+                    "ALAMAT",
+                ],
+        date: new Date("2024-09-28T18:00:00"),
+        announced: new Date("2024-09-09T19:01:00"),
+        venue: venues.vivacafe
+    },
+    {
+        name: "Now Playing: PPOP Showcase",
+        artist: [
+                    "GenZix",
+                    "SY•NC",
+                    "A+Blaze",
+                    "A+Dazzle",
+                    "",
+                ],
+        date: new Date("2024-11-14T18:00:00"),
+        announced: new Date("2024-09-05T18:00:00"),
+        venue: venues.skydome
+    },
+    {
+        artist: [
+                    "The Red Jumpsuit Apparatus",
+                ],
+        date: new Date("2024-09-11T20:00:00"),
+        venue: venues.smxdavao
+    },
+    {
+        artist: [
+                    "The Red Jumpsuit Apparatus",
+                ],
+        date: new Date("2024-09-12T20:00:00"),
+        venue: venues.skydome
+    },
+    {
+        name: "A Night with TJ MONTERDE",
+        artist: [
+                    "TJ Monterde",
+                ],
+        date: new Date("2024-09-26T19:00:00"),
+        venue: venues.rmiligan
     },
     {
         name: "",

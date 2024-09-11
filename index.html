@@ -10,8 +10,8 @@
     <main class="main">
         <h1>Upcoming Events</h1>
         <p class="main-desc">Details are subject to change without prior notice of the artist or event promoter. Follow their official social media accounts for the latest information.</p>
-        <section>
-            <p class="filter-desc">Filter by:</p>
+        <section class="sort">
+            <p class="sort-desc">Sort by:</p>
             <button id="new">Just Announced</button>
         </section>
 
@@ -58,7 +58,7 @@
         const board = document.querySelector('main');
         const btnNew = document.querySelector('#new');
         
-        const finalList = events.filter(item => (item.date >= new Date()));
+        const finalList = events.filter(item => ((item.date >= new Date()) && (item.date >= new Date())));
         finalList.sort((a, b) => a.date - b.date);
 
         btnNew.addEventListener('click', (e) => {
