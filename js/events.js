@@ -615,6 +615,7 @@ const events = [
                     "Maki",
                     "Demi",
                     "Over October",
+                    "Orange & Lemons",
                 ],
         date: new Date("2024-12-20"),
         type: "concert",
@@ -1223,6 +1224,7 @@ const events = [
     {
         artist: [
                     "Matt Maltese",
+                    "Janine Teñoso",
                 ],
         date: new Date("2024-11-09"),
         type: "concert",
@@ -1262,7 +1264,8 @@ const events = [
                     "SY•NC",
                     "A+Blaze",
                     "A+Dazzle",
-                    "",
+                    "AGON",
+                    "ARSÈNE",
                 ],
         date: new Date("2024-11-14T18:00:00"),
         announced: new Date("2024-09-05T18:00:00"),
@@ -1293,6 +1296,197 @@ const events = [
         date: new Date("2024-09-26T19:00:00"),
         type: "mall",
         venue: venues.rmiligan
+    },
+    {
+        name: "Touchdown in Manila",
+        artist: [
+                    "KATSEYE",
+                ],
+        date: new Date("2024-09-18T18:00:00"),
+        announced: new Date("2024-09-11T20:15:00"),
+        type: "mall",
+        venue: venues.marketmarket
+    },
+    {
+        name: "Snakefight The Bar Tour",
+        artist: [
+                    "Snakefight",
+                    "Kenaniah",
+                    "Arcadia",
+                    "Henz Inanobe",
+                ],
+        date: new Date("2024-09-12"),
+        type: "gig",
+        venue: venues.mows
+    },
+    {
+        artist: [
+                    "SUD",
+                ],
+        date: new Date("2024-09-14T20:00:00"),
+        announced: new Date("2024-09-11T19:58:00"),
+        type: "gig",
+        venue: venues.vivacafe
+    },
+    {
+        name: "Ikot Day 2 Sa Music Museum",
+        artist: [
+                    "Over October",
+                ],
+        date: new Date("2024-10-12T20:00:00"),
+        announced: new Date("2024-09-11T18:02:00"),
+        type: "concert",
+        venue: venues.musicmuseum
+    },
+    {
+        name: "Day6 3rd World Tour Forever Young",
+        artist: [
+                    "Day6",
+                ],
+        date: new Date("2025-02-22"),
+        type: "concert",
+        venue: venues.araneta
+    },
+    {
+        artist: [
+                    "Eliza Maturan",
+                    "Sean Ilada",
+                    "Jiyu",
+                    "Maegan Lim",
+                ],
+        date: new Date("2024-09-21T19:00:00"),
+        type: "gig",
+        venue: venues.ambergis
+    },
+    {
+        artist: [
+                    "dwta",
+                    "Paulo",
+                    "Ame",
+                    "Better Days",
+                    "Kiss N Tell",
+                    "Helena",
+                ],
+        date: new Date("2024-09-26"),
+        type: "gig",
+        venue: venues.twelvemonkeys
+    },
+    {
+        name: "Subculture",
+        artist: [
+                    "Chicosci",
+                    "Chelsea Alley",
+                    "Sera",
+                    "Limitbreak Crew",
+                    "Katatonik",
+                    "Sonia",
+                    "Forge",
+                    "13th Verse",
+                    "Skampers",
+                    "South Nova St.",
+                    "Abiso",
+                    "Hellokitten",
+                    "Blindsided",
+                    "Incendio",
+                    "Forbidden Juan",
+                    "Fluidde",
+                ],
+        date: new Date("2024-09-14T17:00:00"),
+        type: "concert",
+        venue: venues.diwangtarlac
+    },
+    {
+        name: "A Night At The Pops",
+        artist: [
+                    "Manila Symphony Orchestra",
+                    "Barbie Almalbis",
+                    "Jason Dhakal",
+                    "Arthur Miguel",
+                    "Lola Amour",
+                ],
+        date: new Date("2024-11-15T20:00:00"),
+        type: "concert",
+        venue: venues.frontier
+    },
+    {
+        name: "Foot Locker Day",
+        artist: [
+                    "Dionela",
+                    "Clara Benin",
+                    "Curtismith",
+                    "Deny",
+                    "Waiian",
+                    "A-Kidz",
+                ],
+        date: new Date("2024-09-14"),
+        announced: new Date("2024-09-10T19:18:00"),
+        type: "mall",
+        venue: venues.ammanilabay
+    },
+    {
+        name: "TRS Tempus Rehearsal Space by EelectricStudio 1st Anniversary",
+        artist: [
+                    "Ligaya Escueta",
+                    "Badwave",
+                    "Irrevocable",
+                    "Eggboy",
+                    "Ang Bandang Shirley",
+                ],
+        date: new Date("2024-09-14"),
+        type: "gig",
+        venue: venues.onetwothree
+    },
+    {
+        name: "Queen of the Night Remembering Whitney",
+        artist: [
+                    "Trina Johnson Finn",
+                ],
+        date: new Date("2024-10-11T20:00:00"),
+        announced: new Date("2024-09-11T20:18:00"),
+        type: "concert",
+        venue: venues.newport
+    },
+    {
+        name: "Queen of the Night Remembering Whitney",
+        artist: [
+                    "Trina Johnson Finn",
+                ],
+        date: new Date("2024-10-12T20:00:00"),
+        announced: new Date("2024-09-11T20:18:00"),
+        type: "concert",
+        venue: venues.newport
+    },
+    {
+        name: "Live at the Cozy Cove",
+        artist: [
+                    "Nobita",
+                    "Jayda",
+                    "Arthur Miguel",
+                    "Jose Miguel",
+                ],
+        date: new Date("2024-09-13T18:00:00"),
+        type: "gig",
+        venue: venues.cozycove
+    },
+    {
+        name: "Janine Apat Na Buwan EP Tour",
+        artist: [
+                    "Janine Teñoso",
+                    "Jikamarie",
+                    "Pappel",
+                ],
+        date: new Date("2024-09-13T18:00:00"),
+        type: "gig",
+        venue: venues.dinalan
+    },
+    {
+        artist: [
+                    "Brownman Revival",
+                    "Chechebureche",
+                ],
+        date: new Date("2024-09-28"),
+        type: "gig",
+        venue: venues.twelvemonkeys
     },
     {
         name: "",

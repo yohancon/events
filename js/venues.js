@@ -1,4 +1,6 @@
 const venues = {
+    ambergis: "Ambergis Café",
+    ammanilabay: "Ayala Malls Manila Bay",
     araneta: "Smart Araneta Coliseum",
     auslquadrangle: "AUSL Quadrangle",
     bar360: "Bar 360",
@@ -8,8 +10,11 @@ const venues = {
     centralcraftbalanga: "The Central Craft Beer, Bataan",
     cityboymain: "Cityboy Brew Main",
     citydimare: "City Di Mare",
+    cozycove: "The Cozy Cove",
+    dinalan: "Dinalan Coffee",
     dininghall: "Dining Hall, Quezon City",
     districtone: "District One",
+    diwangtarlac: "Diwa Ng Tarlac Convention Center",
     eastside: "Eastside Events Place",
     eightyeight: "88 FRYER",
     etoncentris: "Eton Centris",
