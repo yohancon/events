@@ -8,6 +8,7 @@ main {
     padding: 16px;
 }
 
+p.appearance-desc,
 p.sort-desc,
 p.filter-desc {
     font-size: 12px;
@@ -31,6 +32,13 @@ button.clicked {
     color: white;
 }
 
+button#mode.clicked,
+.dark > section > button.clicked,
+.dark > section > section > button.clicked {
+    background-color: white;
+    color: black;
+}
+
 button:hover {
     cursor: pointer;
 }
@@ -51,6 +59,7 @@ article:last-of-type {
 
 h1,
 p.main-desc,
+section.appearance,
 section.sort,
 section.filter {
     /* font-weight: lighter; */
@@ -92,3 +101,54 @@ footer {
     text-align: center;
     text-transform: uppercase;
 }
+
+.dark {
+    color: white;
+    background-color: black;
+}
+
+.dark > section > button,
+.dark > section > section > button
+ {
+    border-color: white;
+    color: white;
+}
+
+.dark > article {
+    border-color: #ffffff95;
+}
+
+.dark > article > .venue,
+.dark > article > .date {
+    color: #ffffff95;
+}
+
+/* #concert {
+    border-color: red;
+    color: red;
+}
+
+#concert.clicked {
+    background-color: red;
+    color: white;
+}
+
+#mall {
+    border-color: blue;
+    color: blue;
+}
+
+#mall.clicked {
+    background-color: blue;
+    color: white;
+}
+
+#gig {
+    border-color: green;
+    color: green;
+}
+
+#gig.clicked {
+    background-color: green;
+    color: white;
+} */

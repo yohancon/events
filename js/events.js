@@ -883,9 +883,27 @@ const events = [
         artist: [
                     "Air Supply",
                 ],
-        date: new Date("2024-12-05"),
+        date: new Date("2024-12-05T19:00:00"),
         type: "concert",
         venue: venues.smxbacolod
+    },
+    {
+        name: "Air Supply The Lost in Love Experience",
+        artist: [
+                    "Air Supply",
+                ],
+        date: new Date("2024-12-09T19:00:00"),
+        type: "concert",
+        venue: venues.waterfronthotel
+    },
+    {
+        name: "Air Supply The Lost in Love Experience",
+        artist: [
+                    "Air Supply",
+                ],
+        date: new Date("2024-12-11T19:00:00"),
+        type: "concert",
+        venue: venues.smxdavao
     },
     {
         name: "SiKAT v.3",
@@ -1339,6 +1357,15 @@ const events = [
         venue: venues.musicmuseum
     },
     {
+        name: "Ikot Day 1 Sa Music Museum",
+        artist: [
+                    "Over October",
+                ],
+        date: new Date("2024-10-04T20:00:00"),
+        type: "concert",
+        venue: venues.musicmuseum
+    },
+    {
         name: "Day6 3rd World Tour Forever Young",
         artist: [
                     "Day6",
@@ -1487,6 +1514,474 @@ const events = [
         date: new Date("2024-09-28"),
         type: "gig",
         venue: venues.twelvemonkeys
+    },
+    {
+        artist: [
+                    "SUD",
+                    "Sugarcane",
+                ],
+        date: new Date("2024-09-20T18:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+        type: "gig",
+        venue: venues.jessnpats
+    },
+    {
+        artist: [
+                    "Cigarettes After Sex",
+                ],
+        date: new Date("2025-01-14T20:00:00"),
+        type: "concert",
+        venue: venues.moaarena
+    },
+    {
+        name: "Satellites World Tour",
+        artist: [
+                    "The Script",
+                ],
+        date: new Date("2025-02-11T20:00:00"),
+        type: "concert",
+        venue: venues.araneta
+    },
+    {
+        name: "Satellites World Tour",
+        artist: [
+                    "The Script",
+                ],
+        date: new Date("2025-02-12T20:00:00"),
+        type: "concert",
+        venue: venues.araneta
+    },
+    {
+        name: "Best of Fujii Kaze 2020-2024 Asia Tour",
+        artist: [
+                    "Fujii Kaze",
+                ],
+        date: new Date("2024-12-10"),
+        type: "concert",
+        venue: venues.moaarena
+    },
+    {
+        name: "Davao Aurora Music Festival",
+        artist: [
+                    "Ely Buendia",
+                    "Moira dela Torre",
+                    "Orange & Lemons",
+                    "Arthur Nery",
+                    "Cup of Joe",
+                    "Jed Ignacio",
+                    "DJ Torch Gacuma",
+                    "DJ Ivan Ramos",
+                    "DJ Supreme",
+                ],
+        date: new Date("2024-11-30:15:00:00"),
+        type: "concert",
+        venue: venues.crocodilepark
+    },
+    {
+        name: "Maki-Concert",
+        artist: [
+                    "Maki",
+                ],
+        date: new Date("2024-11-29T19:00:00"),
+        type: "concert",
+        venue: venues.frontier
+    },
+    {
+        name: "Maki-Concert",
+        artist: [
+                    "Maki",
+                ],
+        date: new Date("2024-11-30T19:00:00"),
+        type: "concert",
+        venue: venues.frontier
+    },
+    {
+        artist: [
+                    "juan karlos",
+                ],
+        date: new Date("2024-11-29T20:00:00"),
+        type: "concert",
+        venue: venues.moaarena
+    },
+    {
+        artist: [
+                    "Dionela",
+                ],
+        date: new Date("2024-10-18"),
+        type: "mall",
+        venue: venues.uptechnohub
+    },
+    {
+        artist: [
+                    "Dionela",
+                ],
+        date: new Date("2024-10-27"),
+        type: "mall",
+        venue: venues.amfeliz
+    },
+    {
+        artist: [
+                    "Dionela",
+                ],
+        date: new Date("2024-11-09"),
+        type: "mall",
+        venue: venues.amharborpoint
+    },
+    {
+        artist: [
+                    "Dionela",
+                ],
+        date: new Date("2024-11-15"),
+        type: "mall",
+        venue: venues.marqueemall
+    },
+    {
+        artist: [
+                    "Dionela",
+                ],
+        date: new Date("2024-11-16"),
+        type: "mall",
+        venue: venues.amcentralbloc
+    },
+    {
+        artist: [
+                    "Dionela",
+                ],
+        date: new Date("2024-11-30"),
+        type: "mall",
+        venue: venues.amthe30th
+    },
+    {
+        name: "2024 CHANYEOL LIVE TOUR: (City-scape) in MANILA",
+        artist: [
+                    "CHANYEOL",
+                ],
+        date: new Date("2024-10-19T18:00:00"),
+        type: "concert",
+        venue: venues.araneta
+    },
+    {
+        name: "NE-YO: Champagne and Roses Tour Live in Manila",
+        artist: [
+                    "NE-YO",
+                ],
+        date: new Date("2024-10-08T20:00:00"),
+        type: "concert",
+        venue: venues.araneta
+    },
+    {
+        name: "NE-YO: Champagne and Roses Tour Live in Manila",
+        artist: [
+                    "NE-YO",
+                ],
+        date: new Date("2024-10-09T20:00:00"),
+        type: "concert",
+        venue: venues.araneta
+    },
+    {
+        name: "The Kid LAROI // The First Time Tour Live in Manila",
+        artist: [
+                    "The Kid LAROI",
+                ],
+        date: new Date("2024-11-05T20:00:00"),
+        type: "concert",
+        venue: venues.frontier
+    },
+    {
+        name: "Lanterns and Legends: Mid-Autumn Festival Concert 2024",
+        artist: [
+                    "Sarah Geronimo",
+                    "Baek Ji Young",
+                ],
+        date: new Date("2024-09-28T19:00:00"),
+        type: "concert",
+        venue: venues.covemanila
+    },
+    {
+        name: "Beyond Measure: CBN Asia's 30th Anniversary Worship Celebration",
+        artist: [
+                    "Gary Valenciano",
+                    "Sam Concepcion",
+                    "Morissette",
+                    "Dulce",
+                    "Darren Espanto",
+                    "Angel Guardian",
+                    "Dave Lamar",
+                    "Keiko Necesario",
+                    "Rj de La Fuente",
+                    "Benj Pangilinan",
+                    "Felichi Buizon",
+                    "Kai Buizon",
+                    "Tricia Amper-Jimenez and Papuri Group",
+                    "Khimo",
+                    "Acel Van Ommen",
+                    "Hazel Faith",
+                    "Coach Mycs and LSDC Street",
+                    "Maneouvres",
+                    "Via Antonio",
+                    "Kayla Rivera",
+                    "Aicelle Santos",
+                    "Caleb Santos",
+                    "Reverb Worship PH Artists",
+                ],
+        date: new Date("2024-09-24T18:00:00"),
+        type: "concert",
+        venue: venues.araneta
+    },
+    {
+        name: "2024 JANG KI YONG ASIA FAN MEETING BEAUTIFUL DAY IN MANILA",
+        artist: [
+                    "Jang Ki Yong",
+                ],
+        date: new Date("2024-09-28T19:00:00"),
+        type: "concert",
+        venue: venues.samsunghall
+    },
+    {
+        name: "2024 ZEROBASEONE THE FIRST TOUR TIMELESS WORLD IN MANILA",
+        artist: [
+                    "ZEROBASEONE",
+                ],
+        date: new Date("2024-10-12T18:00:00"),
+        type: "concert",
+        venue: venues.moaarena
+    },
+    {
+        name: "ANNE-MARIE 2024 LIVE IN ASIA",
+        artist: [
+                    "Anne-Marie",
+                ],
+        date: new Date("2024-09-28T19:00:00"),
+        type: "concert",
+        venue: venues.podiumhall
+    },
+    {
+        name: "APO HIKING SOCIETY SINGS FOR HOPE",
+        artist: [
+                    "Apo Hiking Society",
+                    "Leah Navarro",
+                ],
+        date: new Date("2024-09-24T20:00:00"),
+        type: "concert",
+        venue: venues.samsunghall
+    },
+    {
+        name: "BORN FOR YOU WITH DAVID POMERANZ",
+        artist: [
+                    "David Pomeranz",
+                ],
+        date: new Date("2024-10-27T20:00:00"),
+        type: "concert",
+        venue: venues.baguioconvention
+    },
+    {
+        name: "CARPENTERS REBORN TRIBUTE SHOW - BAGUIO",
+        artist: [
+                    "Chloe Foston",
+                ],
+        date: new Date("2024-09-22T18:00:00"),
+        type: "concert",
+        venue: venues.unibaguiogym
+    },
+    {
+        name: "CARPENTERS REBORN TRIBUTE SHOW - BATANGAS",
+        artist: [
+                    "Chloe Foston",
+                    "Marco Sison",
+                ],
+        date: new Date("2024-09-27T20:00:00"),
+        type: "concert",
+        venue: venues.fpjarena
+    },
+    {
+        name: "DUA LIPA RADICAL OPTIMISM TOUR",
+        artist: [
+                    "Dua Lipa",
+                ],
+        date: new Date("2024-11-13"),
+        type: "concert",
+        venue: venues.pharena
+    },
+    {
+        name: "HILLSONG LONDON WORSHIP LIVE IN CEBU",
+        artist: [
+                    "Hillsong London",
+                ],
+        date: new Date("2024-11-08T20:00:00"),
+        type: "concert",
+        venue: venues.seasidecebugrounds
+    },
+    {
+        name: "HILLSONG LONDON WORSHIP LIVE IN MANILA",
+        artist: [
+                    "Hillsong London",
+                ],
+        date: new Date("2024-11-09T20:00:00"),
+        type: "concert",
+        venue: venues.moaarena
+    },
+    {
+        name: "HILLSONG LONDON WORSHIP LIVE IN MANILA",
+        artist: [
+                    "Hillsong London",
+                ],
+        date: new Date("2024-11-10T18:00:00"),
+        type: "concert",
+        venue: venues.moaarena
+    },
+    {
+        name: "JED MADELA WELCOME TO MY WORLD",
+        artist: [
+                    "Jed Madela",
+                ],
+        date: new Date("2024-09-21T19:00:00"),
+        type: "concert",
+        venue: venues.iloiloconvention
+    },
+    {
+        name: "NAUGHTY AND NICE JON SANTOS IS COMING TO TOWN",
+        artist: [
+                    "Jon Santos",
+                    "Apo Hiking Society",
+                    "Ice Seguerra",
+                    "Viñas Deluxe",
+                ],
+        date: new Date("2024-12-07T20:00:00"),
+        type: "concert",
+        venue: venues.samsunghall
+    },
+    {
+        artist: [
+                    "Michael Learns to Rock",
+                ],
+        date: new Date("2024-11-05T20:00:00"),
+        type: "concert",
+        venue: venues.moaarena
+    },
+    {
+        name: "SMILE! :D WORLD TOUR PORTER ROBINSON",
+        artist: [
+                    "Porter Robinson",
+                ],
+        date: new Date("2024-12-08"),
+        type: "concert",
+        venue: venues.podiumhall
+    },
+    {
+        name: "STRAY KIDS DOMINATE WORLD TOUR",
+        artist: [
+                    "Stray Kids",
+                ],
+        date: new Date("2024-11-23T19:00:00"),
+        type: "concert",
+        venue: venues.pharena
+    },
+    {
+        name: "THE CHAMELEONS LIVE IN MANILA",
+        artist: [
+                    "The Chameleons",
+                    "The Dawn",
+                ],
+        date: new Date("2024-11-21T20:00:00"),
+        type: "concert",
+        venue: venues.midastent
+    },
+    {
+        name: "THE MAINE THE SWEET SIXTEEN TOUR IN MANILA",
+        artist: [
+                    "The Maine",
+                ],
+        date: new Date("2024-09-27T20:00:00"),
+        type: "concert",
+        venue: venues.skydome
+    },
+    {
+        name: "THE MAINE THE SWEET SIXTEEN TOUR IN MANILA",
+        artist: [
+                    "The Maine",
+                ],
+        date: new Date("2024-09-28T19:30:00"),
+        type: "concert",
+        venue: venues.skydome
+    },
+    {
+        name: "Tina Turner Tribute Show: ROLLING on the River ft. Sandy Redd",
+        artist: [
+                    "Sandy Redd",
+                ],
+        date: new Date("2024-09-20T20:00:00"),
+        type: "concert",
+        venue: venues.newport
+    },
+    {
+        name: "Tina Turner Tribute Show: ROLLING on the River ft. Sandy Redd",
+        artist: [
+                    "Sandy Redd",
+                ],
+        date: new Date("2024-09-21T20:00:00"),
+        type: "concert",
+        venue: venues.newport
+    },
+    {
+        name: "LANY A BEAUTIFUL BLUR : THE WORLD TOUR ASIA",
+        artist: [
+                    "LANY",
+                ],
+        date: new Date("2024-10-12"),
+        type: "concert",
+        venue: venues.pharena
+    },
+    {
+        name: "LANY A BEAUTIFUL BLUR : THE WORLD TOUR ASIA",
+        artist: [
+                    "LANY",
+                ],
+        date: new Date("2024-10-13"),
+        type: "concert",
+        venue: venues.waterfronthotel
+    },
+    {
+        name: "LANY A BEAUTIFUL BLUR : THE WORLD TOUR ASIA",
+        artist: [
+                    "LANY",
+                ],
+        date: new Date("2024-10-14"),
+        type: "concert",
+        venue: venues.waterfronthotel
+    },
+    {
+        name: "LANY A BEAUTIFUL BLUR : THE WORLD TOUR ASIA",
+        artist: [
+                    "LANY",
+                ],
+        date: new Date("2024-10-15"),
+        type: "concert",
+        venue: venues.waterfronthotel
+    },
+    {
+        name: "ITALO DISCO WITH GAZEBO",
+        artist: [
+                    "Gazebo",
+                ],
+        date: new Date("2024-10-19T20:00:00"),
+        type: "concert",
+        venue: venues.midastent
+    },
+    {
+        artist: [
+                    "Tate McRae",
+                ],
+        date: new Date("2024-11-04T20:00:00"),
+        type: "concert",
+        venue: venues.frontier
+    },
+    {
+        artist: [
+                    "Harlem Globetrotters",
+                ],
+        date: new Date("2024-11-12T19:30:00"),
+        type: "concert",
+        venue: venues.araneta
     },
     {
         name: "",

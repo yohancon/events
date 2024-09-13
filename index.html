@@ -10,6 +10,10 @@
     <main class="main">
         <h1>Upcoming Events</h1>
         <p class="main-desc">Details are subject to change without prior notice of the artist or event promoter. Follow their official social media accounts for the latest information.</p>
+        <section class="appearance">
+            <p class="appearance-desc">APPEARANCE</p>
+            <button id="mode">Light Mode</button>
+        </section>
         <section class="sort">
             <p class="sort-desc">ORDER</p>
             <button id="new">Just Announced</button>
@@ -36,6 +40,7 @@
         function createBoard(arr) {
             for (const item of arr) {
                 const row = document.createElement('article');
+                row.classList.add(item.type);
                 
                 const row_head = document.createElement('div');
                 row_head.className = "title";
@@ -111,7 +116,9 @@
         }
 
         const board = document.querySelector('main');
+        const footer = document.querySelector('footer');
         const btnNew = document.querySelector('#new');
+        const btnMode = document.querySelector('#mode');
         const btnList = Array.from(document.querySelectorAll('button.filter'));
         
         const finalList = events.filter(item => (item.date >= getFullDate(new Date())));
@@ -150,6 +157,19 @@
                 createBoard(list);
             })
         }
+
+        btnMode.addEventListener('click', (e) => {
+            btnMode.classList.toggle("clicked");
+            if(btnMode.classList.contains("clicked")) {
+                btnMode.textContent = "Dark Mode";
+                board.classList.add("dark");
+                footer.classList.add("dark");
+            } else {
+                btnMode.textContent = "Light Mode";
+                board.classList.remove("dark");
+                footer.classList.add("dark");
+            }
+        });
 
         btnNew.addEventListener('click', (e) => {
             for (const btn of btnList) {
