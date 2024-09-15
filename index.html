@@ -108,7 +108,6 @@
                 case 4:
                 case 5:
                 case 6:
-                case 7:
                     return getDayOfTheWeek(dateArg);
                 default:
                     return dateArg.toLocaleDateString();
@@ -184,7 +183,7 @@
             let list;
 
             if(btnNew.classList.contains("clicked")) {
-                list = events.filter(item => ((item.announced <= getFullDate(new Date())) && (item.date >= getFullDate(new Date()))));
+                list = events.filter(item => ((item.announced <= new Date()) && (item.date >= getFullDate(new Date()))));
                 list.sort((a, b) => b.announced - a.announced);
 
             } else {

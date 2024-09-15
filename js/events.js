@@ -426,6 +426,8 @@ const events = [
         name: "PABLO UNA Tour",
         artist: [
                     "PABLO",
+                    "J2X",
+                    "W3",
                 ],
         date: new Date("2024-09-15T16:00:00"),
         type: "mall",
@@ -435,6 +437,8 @@ const events = [
         name: "PABLO UNA Tour",
         artist: [
                     "PABLO",
+                    "J2X",
+                    "W3",
                 ],
         date: new Date("2024-09-22"),
         type: "mall",
@@ -444,6 +448,8 @@ const events = [
         name: "PABLO UNA Tour",
         artist: [
                     "PABLO",
+                    "J2X",
+                    "W3",
                 ],
         date: new Date("2024-09-29"),
         type: "mall",
@@ -464,8 +470,8 @@ const events = [
         artist: [
                     "Lola Amour",
                     "Alisson Shore",
-                    "The Ridleys",
                     "Chicosci",
+                    "The Ridleys",
                     "bird.",
                     "25hearts",
                 ],
@@ -616,6 +622,7 @@ const events = [
                     "Demi",
                     "Over October",
                     "Orange & Lemons",
+                    "Cup of Joe",
                 ],
         date: new Date("2024-12-20"),
         type: "concert",
@@ -1068,8 +1075,8 @@ const events = [
                     "Nadine Lustre",
                     "December Avenue",
                     "Zack Tabudlo",
-                    "KAIA",
                     "Maki",
+                    "KAIA",
                     "Jan Francis Alinsonorin",
                     "Jovie Loon",
                     "Nica Jañola",
@@ -1284,6 +1291,11 @@ const events = [
                     "A+Dazzle",
                     "AGON",
                     "ARSÈNE",
+                    "GEM&I",
+                    "Y07",
+                    "YM24",
+                    "MIRAI",
+                    "ONX",
                 ],
         date: new Date("2024-11-14T18:00:00"),
         announced: new Date("2024-09-05T18:00:00"),
@@ -1336,6 +1348,20 @@ const events = [
         date: new Date("2024-09-12"),
         type: "gig",
         venue: venues.mows
+    },
+    {
+        name: "Snakefight The Bar Tour & New Single Launch",
+        artist: [
+                    "Snakefight",
+                    "One Click Straight",
+                    "Henz Inanobe",
+                    "Blitz",
+                    "Spaced Out Kids",
+                    "Eleyn",
+                ],
+        date: new Date("2024-09-26"),
+        type: "gig",
+        venue: venues.bistro
     },
     {
         artist: [
@@ -1833,6 +1859,8 @@ const events = [
         name: "JED MADELA WELCOME TO MY WORLD",
         artist: [
                     "Jed Madela",
+                    "Esay Kirstin",
+                    "Mary Anjolie Chua",
                 ],
         date: new Date("2024-09-21T19:00:00"),
         type: "concert",
@@ -1881,6 +1909,8 @@ const events = [
         artist: [
                     "The Chameleons",
                     "The Dawn",
+                    "Orange & Lemons",
+                    "DJ Jon Tupaz",
                 ],
         date: new Date("2024-11-21T20:00:00"),
         type: "concert",
@@ -1980,6 +2010,450 @@ const events = [
                     "Harlem Globetrotters",
                 ],
         date: new Date("2024-11-12T19:30:00"),
+        type: "concert",
+        venue: venues.araneta
+    },
+    {
+        artist: [
+                    "Akon",
+                    "Ez Mil",
+                    "Lucas",
+                    "Gloc 9",
+                    "Flow G",
+                    "Dappest X Adl",
+                    "Legit Misfitz",
+                    "Chocolate Factory",
+                    "DJ Kate Jagdon",
+                ],
+        date: new Date("2024-12-03"),
+        announced: new Date("2024-09-14T10:00:00"),
+        type: "concert",
+        venue: venues.moaarena
+    },
+    {
+        artist: [
+                    "Hands Like Houses",
+                    "Greyhoundz",
+                    "Urbandub",
+                    "Typecast",
+                ],
+        date: new Date("2024-10-06T17:00:00"),
+        announced: new Date("2024-09-13T15:04:00"),
+        type: "concert",
+        venue: venues.eastside
+    },
+    {
+        artist: [
+                    "Parokya Ni Edgar",
+                    "Soundcheckers",
+                ],
+        date: new Date("2024-09-24"),
+        type: "gig",
+        venue: venues.twelvemonkeys
+    },
+    {
+        name: "Kuatro Kantos Dito Sa Elpi Album Launch",
+        artist: [
+                    "Kuatro Kantos",
+                    "Mayonnaise",
+                    "Hilera",
+                    "Maropok",
+                ],
+        date: new Date("2024-09-21T21:00:00"),
+        type: "gig",
+        venue: venues.twelvemonkeys
+    },
+    {
+        artist: [
+                    "Stonefree",
+                ],
+        date: new Date("2024-09-20"),
+        type: "gig",
+        venue: venues.kalmabar
+    },
+    {
+        artist: [
+                    "Gino Padilla",
+                ],
+        date: new Date("2024-09-26T22:45:00"),
+        type: "gig",
+        venue: venues.bar360
+    },
+    {
+        artist: [
+                    "NIKI",
+                ],
+        date: new Date("2025-02-11"),
+        type: "concert",
+        venue: venues.tba
+    },
+    {
+        artist: [
+                    "NIKI",
+                ],
+        date: new Date("2025-02-12"),
+        type: "concert",
+        venue: venues.tba
+    },
+    {
+        artist: [
+                    "Jung Hae In",
+                ],
+        date: new Date("2024-12-21"),
+        type: "concert",
+        venue: venues.tba
+    },
+    {
+        name: "Being & Becoming: Acel's Farewell Concert and Album Launch",
+        artist: [
+                    "Acel",
+                ],
+        date: new Date("2024-10-11T20:00:00"),
+        announced: new Date("2024-09-13T18:10:00"),
+        type: "concert",
+        venue: venues.teatrino
+    },
+    {
+        name: "DOS Part III: JOEkay JOEkay",
+        artist: [
+                    "Cup of Joe",
+                    "Sid Lily",
+                    "Keanna Mag",
+                    "Sugarcane",
+                    "Gello Marquez",
+                    "Matt Wilson",
+                    "Earl Agustin",
+                ],
+        date: new Date("2024-09-21"),
+        announced: new Date("2024-09-14T19:59:00"),
+        type: "gig",
+        venue: venues.vivacafe
+    },
+    {
+        name: "Be My Belle",
+        artist: [
+                    "Belle Mariano",
+                ],
+        date: new Date("2024-11-22T20:00:00"),
+        announced: new Date("2024-09-14T20:43:00"),
+        type: "concert",
+        venue: venues.newport
+    },
+    {
+        name: "St. Wolf Launch Party",
+        artist: [
+                    "St. Wolf",
+                    "Party Pace",
+                    "Gloryen",
+                    "Frank Ely",
+                    "Matoki",
+                ],
+        date: new Date("2024-09-19T19:30:00"),
+        type: "gig",
+        venue: venues.mows
+    },
+    {
+        name: "For Friends, From Friends",
+        artist: [
+                    "Fairview Far",
+                    "Austri",
+                    "Ahmad (of We Are Imaginary)",
+                    "Tidal",
+                    "Warpten",
+                    "Devices",
+                ],
+        date: new Date("2024-10-13T18:00:00"),
+        type: "gig",
+        venue: venues.mows
+    },
+    {
+        name: "Coke Studio Concert",
+        artist: [
+                    "Alamat",
+                    "dwta",
+                    "Nik Makino",
+                ],
+        date: new Date("2024-09-19T18:00:00"),
+        type: "concert",
+        venue: venues.balatasdevcomplex
+    },
+    {
+        name: "Game Night with Elise Huang",
+        artist: [
+                    "Elise Huang",
+                ],
+        date: new Date("2024-09-21T17:00:00"),
+        type: "gig",
+        venue: venues.sidequest
+    },
+    {
+        name: "Robbears Anniversary: A night of Retro & Love",
+        artist: [
+                    "Rob Deniel",
+                ],
+        date: new Date("2024-09-29T18:00:00"),
+        announced: new Date("2024-09-13T20:24:00"),
+        type: "gig",
+        venue: venues.vivacafe
+    },
+    {
+        artist: [
+                    "Silent Sanctuary",
+                    "Soapdish",
+                    "The Wamblecropt",
+                    "Ssunn",
+                ],
+        date: new Date("2024-09-17"),
+        type: "gig",
+        venue: venues.bistro
+    },
+    {
+        name: "Bree's A Dream of Sunrise Album Tour: Bulacan Leg",
+        artist: [
+                    "Breē",
+                    "ELEYN",
+                    "sinta",
+                    "Coastal Dreams",
+                    "Woopla",
+                    "Shumi",
+                    "Continents",
+                ],
+        date: new Date("2024-09-21T20:00:00"),
+        type: "gig",
+        venue: venues.junction
+    },
+    {
+        name: "Into the Vortex!",
+        artist: [
+                    "Parasouls",
+                    "Windjay",
+                    "Gabriel Lazaro",
+                    "Reggie Pearl",
+                    "Masaflora",
+                ],
+        date: new Date("2024-09-21T19:00:00"),
+        type: "gig",
+        venue: venues.rabbithole
+    },
+    {
+        name: "Giglab Live",
+        artist: [
+                    "Eleyn",
+                    "Bloomingdale",
+                    "Coastal Dreams",
+                    "Rockalyt",
+                    "Write Turn",
+                    "Aranas LA",
+                ],
+        date: new Date("2024-09-18T19:00:00"),
+        type: "gig",
+        venue: venues.saguijo
+    },
+    {
+        name: "Parallel Lines",
+        artist: [
+                    "Rahjang",
+                    "Blok and Blem",
+                    "Aneka",
+                    "Karizma",
+                    "Primusika",
+                    "Sala Sessions Music",
+                ],
+        date: new Date("2024-09-21T20:00:00"),
+        type: "gig",
+        venue: venues.neutralgroundbar
+    },
+    {
+        artist: [
+                    "Nina",
+                    "Ian Veneracion",
+                ],
+        date: new Date("2024-10-30T20:00:00"),
+        type: "concert",
+        venue: venues.theatresolaire
+    },
+    {
+        name: "Queer Nights Volume II: Young, Pristine, In a Fever Dream",
+        artist: [
+                    "Lu",
+                    "Joan Velasquez",
+                    "Doghause",
+                    "Wishy Washy",
+                    "Walktrip",
+                    "PK Shellboy",
+                ],
+        date: new Date("2024-09-29T18:00:00"),
+        type: "gig",
+        venue: venues.eightyeight
+    },
+    {
+        artist: [
+                    "Over October",
+                ],
+        date: new Date("2024-09-22T18:00:00"),
+        type: "mall",
+        venue: venues.trinoma
+    },
+    {
+        name: "Sugar Hiccup - MANILA",
+        artist: [
+                    "Sugar Hiccup",
+                ],
+        date: new Date("2024-10-19"),
+        type: "gig",
+        venue: venues.tba
+    },
+    {
+        name: "Sugar Hiccup - BAGUIO",
+        artist: [
+                    "Sugar Hiccup",
+                ],
+        date: new Date("2024-10-25"),
+        type: "gig",
+        venue: venues.tba
+    },
+    {
+        name: "Sugar Hiccup - CEBU",
+        artist: [
+                    "Sugar Hiccup",
+                ],
+        date: new Date("2024-10-26"),
+        type: "gig",
+        venue: venues.tba
+    },
+    {
+        name: "TL, I'm Sick",
+        artist: [
+                    "Cherry Society",
+                    "Space Moses",
+                    "Dreaming Blue",
+                    "cheeky things",
+                    "Cat Boy Jeepney Drivers",
+                    "25hearts",
+                    "Sintasan",
+                    "i hope you're okay",
+                ],
+        date: new Date("2024-10-06T18:00:00"),
+        type: "gig",
+        venue: venues.mows
+    },
+    {
+        name: "Beyond Bulls#!t",
+        artist: [
+                    "Ian Veneracion",
+                ],
+        date: new Date("2024-09-27T20:00:00"),
+        type: "gig",
+        venue: venues.nineteeneast
+    },
+    {
+        name: "New Wave Tribe Festival",
+        artist: [
+                    "Per Sorensen",
+                    "Gene Loves Jezebel",
+                    "Ian McNabb",
+                    "DJ Dreadknoxx",
+                ],
+        date: new Date("2024-12-08T20:00:00"),
+        type: "concert",
+        venue: venues.moaarena
+    },
+    {
+        name: "Gemini Fourth Run the World Asia Tour",
+        artist: [
+                    "Gemini Norawit",
+                    "Fourth Nattawat",
+                ],
+        date: new Date("2025-01-25"),
+        type: "concert",
+        venue: venues.tba
+    },
+    {
+        name: "ena matsuri 2024",
+        artist: [
+                    "ena mori",
+                    "kindred",
+                    "UDD",
+                    "t33g33",
+                    "crwn",
+                    "Hideki Ito",
+                ],
+        date: new Date("2024-09-21T18:00:00"),
+        type: "gig",
+        venue: venues.justinbella
+    },
+    {
+        artist: [
+                    "Loonie",
+                ],
+        date: new Date("2024-09-21"),
+        type: "gig",
+        venue: venues.takeover
+    },
+    {
+        name: "Lights, Camera, Encore!",
+        artist: [
+                    "Manila Philharmonic Orchestra",
+                ],
+        date: new Date("2024-10-29T19:30:00"),
+        type: "concert",
+        venue: venues.samsungperforming
+    },
+    {
+        artist: [
+                    "Gliterrer",
+                    "Thirds",
+                    "Girlcharmm",
+                    "The Mind is a Terrible Thing",
+                    "Repetition",
+                ],
+        date: new Date("2024-11-14T19:00:00"),
+        type: "gig",
+        venue: venues.mows
+    },
+    {
+        artist: [
+                    "Nyoy Volante",
+                    "Nisha & The Verse",
+                    "RAV4",
+                ],
+        date: new Date("2024-09-27"),
+        type: "gig",
+        venue: venues.landos
+    },
+    {
+        name: "Rockin' Milestones: 40 Years and Beyond",
+        artist: [
+                    "Bamboo",
+                    "Lola Amour",
+                    "The Dawn",
+                    "Cup of Joe",
+                ],
+        date: new Date("2024-10-31"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+        type: "",
+        venue: venues.tba
+    },
+    {
+        artist: [
+                    "Sandwich",
+                    "Pedicab",
+                    "Ciudad",
+                    "The Happy Analogues (with The Freesouls)",
+                    "7 Foot Jr.",
+                ],
+        date: new Date("2024-09-27T19:00:00"),
+        type: "gig",
+        venue: venues.onetwothree
+    },
+    {
+        name: "Dear My Love Ling & Orm",
+        artist: [
+                    "LingLing",
+                    "Orm",
+                ],
+        date: new Date("2024-10-06T18:00:00"),
+        announced: new Date("2024-09-12T15:00:00"),
         type: "concert",
         venue: venues.araneta
     },
