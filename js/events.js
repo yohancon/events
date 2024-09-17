@@ -1,17 +1,6 @@
 const events = [
     {
         artist: [
-                    "Imago",
-                    "bird.", 
-                    "The Vowels They Orbit", 
-                    "Gloryen",
-                ], 
-        date: new Date("2024-09-11T20:00:00"),
-        type: "gig",
-        venue: venues.bistro
-    },
-    {
-        artist: [
                     "Hindley Street Country Club",
                 ],
         date: new Date("2024-09-29T20:00:00"),
@@ -74,33 +63,9 @@ const events = [
         artist: [
                     "Paolo Santos Trio",
                 ],
-        date: new Date("2024-09-17"),
+        date: new Date("2024-09-17T00:00:00"),
         type: "gig",
         venue: venues.twelvemonkeys
-    },
-    {
-        artist: [
-                    "bird.",
-                    "Blaster and the Celestial Klownz",
-                    "Cheats",
-                    "Party Pace",
-                    "Waiian",
-                ],
-        date: new Date("2024-09-07T17:00:00"),
-        type: "gig",
-        venue: venues.metrotent
-    },
-    {
-        artist: [
-                    "crwn",
-                    "izzy mariano",
-                    "Jolianne",
-                    "Rjay Ty",
-                    "Tarsius",
-                ],
-        date: new Date("2024-09-08T17:00:00"),
-        type: "gig",
-        venue: venues.metrotent
     },
     {
         artist: [
@@ -112,17 +77,9 @@ const events = [
                     "OnlyKwans",
                     "Chain Messages",
                 ],
-        date: new Date("2024-10-04"),
+        date: new Date("2024-10-04T00:00:00"),
         type: "gig",
         venue: venues.rabbithole
-    },
-    {
-        artist: [
-                    "Ely Buendia",
-                ],
-        date: new Date("2024-09-14T20:00:00"),
-        type: "concert",
-        venue: venues.newport
     },
     {
         artist: [
@@ -143,7 +100,7 @@ const events = [
         artist: [
                     "Maroon 5",
                 ],
-        date: new Date("2025-01-29"),
+        date: new Date("2025-01-29T00:00:00"),
         announced: new Date("2024-09-09T11:41:00"),
         type: "concert",
         venue: venues.moaarena
@@ -188,28 +145,6 @@ const events = [
         venue: venues.moaarena
     },
     {
-        artist: [
-                    "Overtone",
-                ],
-        date: new Date("2024-09-15"),
-        type: "gig",
-        venue: venues.twelvemonkeys
-    },
-    {
-        name: "Maselang Bahaghari: Eraserheads Covers Night",
-        artist: [
-                    "FT. Pidiong",
-                    "Lumanay",
-                    "Duskphile",
-                    "Hemlockz",
-                    "ZROW",
-                    "Lazy Daisy",
-                ],
-        date: new Date("2024-09-14T20:00:00"),
-        type: "gig",
-        venue: venues.gighouse
-    },
-    {
         name: "Bente + 1",
         artist: [
                     "SUYEN",
@@ -220,20 +155,6 @@ const events = [
         date: new Date("2024-09-21T18:00:00"),
         type: "gig",
         venue: venues.imajin
-    },
-    {
-        name: "Paramore Night 44",
-        artist: [
-                    "Gracenote",
-                    "FIONA",
-                    "Julia Daniel",
-                    "Night Over Alaska",
-                    "NaïV",
-                    "ULTRAVIOLET",
-                ],
-        date: new Date("2024-09-13"),
-        type: "gig",
-        venue: venues.saguijo
     },
     {
         artist: [
@@ -248,7 +169,7 @@ const events = [
         artist: [
                     "The Ransom Collective",
                     "Leanne & Naara",
-                    "Kai Honasan",
+                    "Kai Del Rio",
                     "Jerms",
                     "Muri",
                     "Billz",
@@ -262,37 +183,9 @@ const events = [
         artist: [
                     "Josh Cullen",
                 ],
-        date: new Date("2024-09-28"),
+        date: new Date("2024-09-28T19:00:00"),
         type: "concert",
         venue: venues.frontier
-    },
-    {
-        name: "Dream Rhythm Promotion Sessions Vol. 8",
-        artist: [
-                    "Maryzark",
-                    "Fiona",
-                    "Eleyn",
-                    "Creditcard Reason",
-                    "Hairgum",
-                    "Brisom",
-                ],
-        date: new Date("2024-09-14"),
-        type: "gig",
-        venue: venues.saguijo
-    },
-    {
-        name: "Kai del Rio Double Single Launch",
-        artist: [
-                    "Kai Del Rio",
-                    "Sponge Cola",
-                    "Barbie Almalbis",
-                    "bird.",
-                    "I Belong To The Zoo",
-                    "Ysanygo",
-                ],
-        date: new Date("2024-09-13T20:00:00"),
-        type: "gig",
-        venue: venues.sarisari
     },
     {
         name: "Now & Then: Orange & Lemons 25th Anniversary Concert",
@@ -307,7 +200,7 @@ const events = [
         artist: [
                     "Franco",
                 ],
-        date: new Date("2024-09-27"),
+        date: new Date("2024-09-27T00:00:00"),
         type: "gig",
         venue: venues.twelvemonkeys
     },
@@ -316,27 +209,16 @@ const events = [
         artist: [
                     "2NE1",
                 ],
-        date: new Date("2024-11-16"),
+        date: new Date("2024-11-16T00:00:00"),
         type: "concert",
         venue: venues.tba
-    },
-    {
-        artist: [
-                    "Shamrock",
-                    "Stonefree",
-                    "Let Gravity",
-                    "Pragma",
-                ],
-        date: new Date("2024-09-12"),
-        type: "gig",
-        venue: venues.twelvemonkeys
     },
     {
         artist: [
                     "Mass of the Fermenting Dregs",
                     "Death of Heather",
                 ],
-        date: new Date("2024-11-10"),
+        date: new Date("2024-11-10T00:00:00"),
         type: "concert",
         venue: venues.eastside
     },
@@ -345,17 +227,9 @@ const events = [
         artist: [
                     "HONNE",
                 ],
-        date: new Date("2024-09-23"),
+        date: new Date("2024-09-23T00:00:00"),
         type: "gig",
         venue: venues.tedellis
-    },
-    {
-        artist: [
-                    "VMX Girlfriends",
-                ],
-        date: new Date("2024-09-13T20:00:00"),
-        type: "gig",
-        venue: venues.vivacafe
     },
     {
         artist: [
@@ -364,7 +238,7 @@ const events = [
                     "Hey June!",
                     "Dilly Dally",
                 ],
-        date: new Date("2024-09-19"),
+        date: new Date("2024-09-19T00:00:00"),
         type: "gig",
         venue: venues.twelvemonkeys
     },
@@ -372,46 +246,9 @@ const events = [
         artist: [
                     "MYMP",
                 ],
-        date: new Date("2024-09-21"),
+        date: new Date("2024-09-21T00:00:00"),
         type: "gig",
         venue: venues.padrino
-    },
-    {
-        name: "A Bad Roll",
-        artist: [
-                    "Fatigued",
-                    "Goon Lagoon",
-                    "cherryfocus",
-                    "Rose Lovingco",
-                    "sci fye",
-                    "Cat Sales",
-                    "O.I. Research Partners",
-                    "emma bot",
-                ],
-        date: new Date("2024-09-13T19:00:00"),
-        type: "gig",
-        venue: venues.mows
-    },
-    {
-        artist: [
-                    "Eliza Maturan",
-                    "CHNDTR",
-                ],
-        date: new Date("2024-09-13"),
-        type: "gig",
-        venue: venues.kalmabar
-    },
-    {
-        name: "The Chongkeys \"Simula\" Album Launch",
-        artist: [
-                    "The Chongkeys",
-                    "Brownman Revival",
-                    "Rudebwoy MNL",
-                    "Sunken Roots",
-                ],
-        date: new Date("2024-09-14T20:30:00"),
-        type: "gig",
-        venue: venues.bistro
     },
     {
         name: "UNIS in CURIOUSland",
@@ -429,18 +266,7 @@ const events = [
                     "J2X",
                     "W3",
                 ],
-        date: new Date("2024-09-15T16:00:00"),
-        type: "mall",
-        venue: venues.rmgalleria
-    },
-    {
-        name: "PABLO UNA Tour",
-        artist: [
-                    "PABLO",
-                    "J2X",
-                    "W3",
-                ],
-        date: new Date("2024-09-22"),
+        date: new Date("2024-09-22T16:00:00"),
         type: "mall",
         venue: venues.rmilocos
     },
@@ -451,19 +277,9 @@ const events = [
                     "J2X",
                     "W3",
                 ],
-        date: new Date("2024-09-29"),
+        date: new Date("2024-09-29T00:00:00"),
         type: "mall",
         venue: venues.rmgalleriasouth
-    },
-    {
-        artist: [
-                    "6cyclemind",
-                    "Stonefree",
-                    "7 Foot Jr",
-                ],
-        date: new Date("2024-09-14T20:00:00"),
-        type: "gig",
-        venue: venues.nineteeneast
     },
     {
         name: "Si Idol Pala 2?",
@@ -475,35 +291,9 @@ const events = [
                     "bird.",
                     "25hearts",
                 ],
-        date: new Date("2024-09-21"),
+        date: new Date("2024-09-21T00:00:00"),
         type: "gig",
         venue: venues.onetwothree
-    },
-    {
-        name: "Kamusta Ka Na? HDYF??",
-        artist: [
-                    "Lola Amour",
-                    "PLAYERTWO",
-                    "dwta",
-                    "Young Cocoa",
-                ],
-        date: new Date("2024-09-13T19:00:00"),
-        type: "gig",
-        venue: venues.onetwothree
-    },
-    {
-        name: "Guitar Harbour Custom Shop 10th Anniversary Celebration",
-        artist: [
-                    "Tanya Markova",
-                    "Dionela",
-                    "Earl Agustin",
-                    "Sapantaha",
-                    "Gracenote",
-                    "Better Days",
-                ],
-        date: new Date("2024-09-12T19:30:00"),
-        type: "gig",
-        venue: venues.bistro
     },
     {
         name: "2024 Hori7on Concert in Manila Daytour: Anchor High",
@@ -518,21 +308,9 @@ const events = [
         artist: [
                     "The Ridleys",
                 ],
-        date: new Date("2024-11-16"),
+        date: new Date("2024-11-16T00:00:00"),
         type: "concert",
         venue: venues.musicmuseum
-    },
-    {
-        name: "Jetcoaster Karaoke Single Launch",
-        artist: [
-                    "Jetcoaster",
-                    "Sunflower Station",
-                    "Shoulder State",
-                    "The Revisors",
-                ],
-        date: new Date("2024-09-13T20:00:00"),
-        type: "gig",
-        venue: venues.rabbithole
     },
     {
         artist: [
@@ -551,27 +329,9 @@ const events = [
                     "Adjeng",
                     "Barbie Almalbis",
                 ],
-        date: new Date("2024-09-17"),
+        date: new Date("2024-09-17T00:00:00"),
         type: "gig",
         venue: venues.redrhino
-    },
-    {
-        name: "SetYEAHmbre!: Isang Improv Show by SPIT",
-        artist: [
-                    "SPIT",
-                ],
-        date: new Date("2024-09-10T21:00:00"),
-        type: "gig",
-        venue: venues.twelvemonkeys
-    },
-    {
-        artist: [
-                    "Nina",
-                    "Peter Caimbon",
-                ],
-        date: new Date("2024-09-11T21:30:00"),
-        type: "gig",
-        venue: venues.twelvemonkeys
     },
     {
         name: "Red Letter Day: Maverick Productions' 2nd Anniversary Day 1",
@@ -586,7 +346,7 @@ const events = [
                     "That Band Astra",
                     "Band Ni Cat",
                 ],
-        date: new Date("2024-11-15"),
+        date: new Date("2024-11-15T00:00:00"),
         type: "gig",
         venue: venues.milenya
     },
@@ -602,18 +362,9 @@ const events = [
                     "Sidra",
                     "Achilles Vee",
                 ],
-        date: new Date("2024-11-16"),
+        date: new Date("2024-11-16T00:00:00"),
         type: "gig",
         venue: venues.bossbar
-    },
-    {
-        artist: [
-                    "Armi Millare",
-                    "The Plug",
-                ],
-        date: new Date("2024-09-11T21:30:00"),
-        type: "gig",
-        venue: venues.hardrockmnl
     },
     {
         name: "Maskipaps: The Crossover",
@@ -624,28 +375,9 @@ const events = [
                     "Orange & Lemons",
                     "Cup of Joe",
                 ],
-        date: new Date("2024-12-20"),
+        date: new Date("2024-12-20T00:00:00"),
         type: "concert",
         venue: venues.upsunken
-    },
-    {
-        name: "Melodies & Memories",
-        artist: [
-                    "The Company",
-                    "Dylan Menor",
-                ],
-        date: new Date("2024-09-14"),
-        type: "mall",
-        venue: venues.rmgalleria
-    },
-    {
-        name: "The Best of David Archuleta",
-        artist: [
-                    "David Archuleta",
-                ],
-        date: new Date("2024-09-14"),
-        type: "concert",
-        venue: venues.frontier
     },
     {
         artist: [
@@ -656,25 +388,6 @@ const events = [
         venue: venues.araneta
     },
     {
-        name: "45th Manila International Book Fair",
-        artist: [
-                    "Cloud 7",
-                ],
-        date: new Date("2024-09-14T13:45:00"),
-        type: "mall",
-        venue: venues.smxmanila
-    },
-    {
-        name: "45th Manila International Book Fair",
-        artist: [
-                    "ASTER",
-                    "AJAA",
-                ],
-        date: new Date("2024-09-15T13:45:00"),
-        type: "mall",
-        venue: venues.smxmanila
-    },
-    {
         name: "Soundtrip Sessions Vol. 3",
         artist: [
                     "Southborder",
@@ -683,29 +396,6 @@ const events = [
         date: new Date("2024-11-09T20:00:00"),
         type: "concert",
         venue: venues.theatresolaire
-    },
-    {
-        name: "SIGA Two Leg Tour",
-        artist: [
-                    "One Click Straight",
-                    "Matoki",
-                    "Chain Messages",
-                    "Silent Disco",
-                    "Medyo Maybe",
-                ],
-        date: new Date("2024-09-14T19:30:00"),
-        type: "gig",
-        venue: venues.hangoutresto
-    },
-    {
-        name: "Wish 107.5",
-        artist: [
-                    "Eliza Maturan",
-                    "Yah Bles",
-                ],
-        date: new Date("2024-09-10T16:00:00"),
-        type: "gig",
-        venue: venues.etoncentris
     },
     {
         name: "Bonded by Sound",
@@ -722,7 +412,7 @@ const events = [
         artist: [
                     "Fiji Blue",
                 ],
-        date: new Date("2024-11-29"),
+        date: new Date("2024-11-29T00:00:00"),
         announced: new Date("2024-09-10T12:00:00"),
         type: "concert",
         venue: venues.samsunghall
@@ -732,19 +422,10 @@ const events = [
         artist: [
                     "Olivia Rodrigo",
                 ],
-        date: new Date("2024-10-05"),
+        date: new Date("2024-10-05T00:00:00"),
         announced: new Date("2024-09-10T12:06:00"),
         type: "concert",
         venue: venues.pharena
-    },
-    {
-        artist: [
-                    "Nina",
-                    "Sound Ministry",
-                ],
-        date: new Date("2024-09-14"),
-        type: "gig",
-        venue: venues.districtone
     },
     {
         name: "Gary V Back @ MC",
@@ -767,28 +448,11 @@ const events = [
         venue: venues.theatresolaire
     },
     {
-        artist: [
-                    "gilcharmm",
-                    "Kino1998",
-                    "The Nomads",
-                    "Jerry Something",
-                    "Vacant Signs",
-                    "Six To Cast",
-                    "Galaxy Lodge",
-                    "Parasouls",
-                    "Afuera",
-                    "Achilles Vee",
-                ],
-        date: new Date("2024-09-12"),
-        type: "gig",
-        venue: venues.eightyeight
-    },
-    {
         name: "Asia Tour 2024",
         artist: [
                     "Big Time Rush",
                 ],
-        date: new Date("2024-10-17"),
+        date: new Date("2024-10-17T20:00:00"),
         type: "concert",
         venue: venues.frontier
     },
@@ -802,18 +466,9 @@ const events = [
                     "PK Shellboy",
                     "Wishy Washy",
                 ],
-        date: new Date("2024-09-29"),
+        date: new Date("2024-09-29T00:00:00"),
         type: "gig",
         venue: venues.eightyeight
-    },
-    {
-        name: "Press Hit Play Lampara Mall Tour",
-        artist: [
-                    "Press Hit Play",
-                ],
-        date: new Date("2024-09-14T16:00:00"),
-        type: "mall",
-        venue: venues.malaboncitisquare
     },
     {
         name: "WHEN WE WERE YOUNG Cover Night Vol. 2",
@@ -834,41 +489,12 @@ const events = [
         venue: venues.cityboymain
     },
     {
-        name: "Chapter 15: In A Hole In The Ground",
-        artist: [
-                    "Pinkmen",
-                    "Lockout Season",
-                    "Lemlunay",
-                    "Trailing Noises",
-                    "ACT!",
-                    "Breē",
-                    "Tema",
-                    "Forest Rituals",
-                ],
-        date: new Date("2024-09-14T20:00:00"),
-        type: "gig",
-        venue: venues.unknownpub
-    },
-    {
-        name: "PPOPCON PPOP Stage MIBF",
-        artist: [
-                    "1ST ONE",
-                    "KAIA",
-                    "New:ID",
-                    "Chin",
-                ],
-        date: new Date("2024-09-14T14:30:00"),
-        announced: new Date("2024-09-09T21:00:00"),
-        type: "mall",
-        venue: venues.smxmanila
-    },
-    {
         artist: [
                     "Join the Club",
                     "Jana Garcia",
                     "Alon",
                 ],
-        date: new Date("2024-09-20"),
+        date: new Date("2024-09-20T00:00:00"),
         type: "gig",
         venue: venues.takeover
     },
@@ -881,7 +507,7 @@ const events = [
                     "SunKissed Lola",
                     "ASTER",
                 ],
-        date: new Date("2024-09-22"),
+        date: new Date("2024-09-22T00:00:00"),
         type: "concert",
         venue: venues.smxmanila
     },
@@ -936,7 +562,7 @@ const events = [
                     "UDD",
                     "Urbandub",
                 ],
-        date: new Date("2024-10-12"),
+        date: new Date("2024-10-12T00:00:00"),
         type: "concert",
         venue: venues.worldtrade
     },
@@ -953,7 +579,7 @@ const events = [
                     "Zild",
                     "9M88",
                 ],
-        date: new Date("2024-10-13"),
+        date: new Date("2024-10-13T00:00:00"),
         type: "concert",
         venue: venues.worldtrade
     },
@@ -962,40 +588,9 @@ const events = [
         artist: [
                     "keshi",
                 ],
-        date: new Date("2025-03-04"),
+        date: new Date("2025-03-04T00:00:00"),
         type: "concert",
         venue: venues.moaarena
-    },
-    {
-        name: "K-Swag Legend",
-        artist: [
-                    "Psy",
-                    "BBGirls",
-                    "The Art Connection",
-                    "PLUUS",
-                    "YGIG",
-                ],
-        date: new Date("2024-09-14T20:00:00"),
-        type: "concert",
-        venue: venues.theatresolaire
-    },
-    {
-        name: "The Best of David Archuleta Live Press Conference and Pre-Concert Sneak Peek",
-        artist: [
-                    "David Archuleta",
-                ],
-        date: new Date("2024-09-13T18:00:00"),
-        announced: new Date("2024-09-10T13:17:00"),
-        type: "mall",
-        venue: venues.marketmarket
-    },
-    {
-        artist: [
-                    "Bruno Major",
-                ],
-        date: new Date("2024-09-11T20:00:00"),
-        type: "concert",
-        venue: venues.piccplenary
     },
     {
         name: "Circus Music Festival 5",
@@ -1030,21 +625,9 @@ const events = [
                     "Tricia",
                     "Similar Sky",
                 ],
-        date: new Date("2024-09-28"),
+        date: new Date("2024-09-28T00:00:00"),
         type: "concert",
         venue: venues.bridgetowne
-    },
-    {
-        name: "Wish Bus",
-        artist: [
-                    "Destiny Palisoc",
-                    "Noel Cabangon & Joey Generoso",
-                    "BGYO",
-                ],
-        date: new Date("2024-09-11T16:00:00"),
-        announced: new Date("2024-09-11T10:00:00"),
-        type: "gig",
-        venue: venues.vmtaguig
     },
     {
         artist: [
@@ -1056,18 +639,6 @@ const events = [
         announced: new Date("2024-09-03T05:20:00"),
         type: "gig",
         venue: venues.junction
-    },
-    {
-        name: "Drag to Store",
-        artist: [
-                    "Brigiding",
-                    "Zymba Ding",
-                    "Tita Baby",
-                    "Khianna",
-                ],
-        date: new Date("2024-09-14T14:00:00"),
-        type: "mall",
-        venue: venues.festivalmall
     },
     {
         name: "Fusion X Cebu",
@@ -1085,23 +656,15 @@ const events = [
                     "DJ Matt",
                     "DJ Via Chan",
                 ],
-        date: new Date("2024-10-05"),
+        date: new Date("2024-10-05T00:00:00"),
         type: "concert",
         venue: venues.citydimare
     },
     {
         artist: [
-                    "Cloud 7",
-                ],
-        date: new Date("2024-09-15T16:00:00"),
-        type: "mall",
-        venue: venues.smstamesa
-    },
-    {
-        artist: [
                     "Silk",
                 ],
-        date: new Date("2024-09-28"),
+        date: new Date("2024-09-28T00:00:00"),
         type: "gig",
         venue: venues.takeover
     },
@@ -1139,17 +702,6 @@ const events = [
         venue: venues.bar360
     },
     {
-        name: "The Arellano Law 2024 Post-Bar Celebration",
-        artist: [
-                    "The Juans",
-                    "Nino Alejandro",
-                    "6cyclemind",
-                ],
-        date: new Date("2024-09-15T18:00:00"),
-        type: "gig",
-        venue: venues.auslquadrangle
-    },
-    {
         name: "Andrew E. 1 Time For Your Mind",
         artist: [
                     "Andrew E.",
@@ -1160,28 +712,9 @@ const events = [
     },
     {
         artist: [
-                    "SNTA",
-                ],
-        date: new Date("2024-09-11T20:00:00"),
-        type: "gig",
-        venue: venues.vivacafe
-    },
-    {
-        name: "Starpop Campus Tour",
-        artist: [
-                    "BGYO",
-                    "Gello Marquez",
-                    "1621BC",
-                ],
-        date: new Date("2024-09-13T17:00:00"),
-        type: "gig",
-        venue: venues.natlteachers
-    },
-    {
-        artist: [
                     "Tanya Markova",
                 ],
-        date: new Date("2024-09-21"),
+        date: new Date("2024-09-21T21:00:00"),
         type: "gig",
         venue: venues.bistro
     },
@@ -1190,7 +723,7 @@ const events = [
         artist: [
                     "BINI",
                 ],
-        date: new Date("2024-11-18"),
+        date: new Date("2024-11-18T00:00:00"),
         type: "concert",
         venue: venues.araneta
     },
@@ -1199,7 +732,7 @@ const events = [
         artist: [
                     "BINI",
                 ],
-        date: new Date("2024-11-17"),
+        date: new Date("2024-11-17T00:00:00"),
         type: "concert",
         venue: venues.araneta
     },
@@ -1208,50 +741,16 @@ const events = [
         artist: [
                     "BINI",
                 ],
-        date: new Date("2024-11-16"),
+        date: new Date("2024-11-16T00:00:00"),
         type: "concert",
         venue: venues.araneta
-    },
-    {
-        name: "SIGA Two Leg Tour",
-        artist: [
-                    "One Click Straight",
-                    "Chain Messages",
-                    "Matoki",
-                    "BLASTER",
-                ],
-        date: new Date("2024-09-13T19:30:00"),
-        type: "gig",
-        venue: venues.dininghall
-    },
-    {
-        artist: [
-                    "Mark Michael Garcia",
-                    "RAV4",
-                ],
-        date: new Date("2024-09-13"),
-        type: "gig",
-        venue: venues.landos
-    },
-    {
-        name: "Anorak Live in Manila",
-        artist: [
-                    "Anorak",
-                    "As Silent As The Forest",
-                    "Musical O",
-                    "Ploverstream",
-                    "Thirds",
-                ],
-        date: new Date("2024-09-11T18:00:00"),
-        type: "gig",
-        venue: venues.mows
     },
     {
         artist: [
                     "Matt Maltese",
                     "Janine Teñoso",
                 ],
-        date: new Date("2024-11-09"),
+        date: new Date("2024-11-09T00:00:00"),
         type: "concert",
         venue: venues.skydome
     },
@@ -1263,14 +762,6 @@ const events = [
         date: new Date("2024-09-27T20:00:00"),
         type: "concert",
         venue: venues.araneta
-    },
-    {
-        artist: [
-                    "Red Velvet",
-                ],
-        date: new Date("2024-09-14T18:00:00"),
-        type: "concert",
-        venue: venues.moaarena
     },
     {
         name: "Alamat Live at Viva Cafe",
@@ -1303,22 +794,6 @@ const events = [
         venue: venues.skydome
     },
     {
-        artist: [
-                    "The Red Jumpsuit Apparatus",
-                ],
-        date: new Date("2024-09-11T20:00:00"),
-        type: "concert",
-        venue: venues.smxdavao
-    },
-    {
-        artist: [
-                    "The Red Jumpsuit Apparatus",
-                ],
-        date: new Date("2024-09-12T20:00:00"),
-        type: "concert",
-        venue: venues.skydome
-    },
-    {
         name: "A Night with TJ MONTERDE",
         artist: [
                     "TJ Monterde",
@@ -1338,18 +813,6 @@ const events = [
         venue: venues.marketmarket
     },
     {
-        name: "Snakefight The Bar Tour",
-        artist: [
-                    "Snakefight",
-                    "Kenaniah",
-                    "Arcadia",
-                    "Henz Inanobe",
-                ],
-        date: new Date("2024-09-12"),
-        type: "gig",
-        venue: venues.mows
-    },
-    {
         name: "Snakefight The Bar Tour & New Single Launch",
         artist: [
                     "Snakefight",
@@ -1359,18 +822,9 @@ const events = [
                     "Spaced Out Kids",
                     "Eleyn",
                 ],
-        date: new Date("2024-09-26"),
+        date: new Date("2024-09-26T00:00:00"),
         type: "gig",
         venue: venues.bistro
-    },
-    {
-        artist: [
-                    "SUD",
-                ],
-        date: new Date("2024-09-14T20:00:00"),
-        announced: new Date("2024-09-11T19:58:00"),
-        type: "gig",
-        venue: venues.vivacafe
     },
     {
         name: "Ikot Day 2 Sa Music Museum",
@@ -1396,7 +850,7 @@ const events = [
         artist: [
                     "Day6",
                 ],
-        date: new Date("2025-02-22"),
+        date: new Date("2025-02-22T00:00:00"),
         type: "concert",
         venue: venues.araneta
     },
@@ -1420,33 +874,9 @@ const events = [
                     "Kiss N Tell",
                     "Helena",
                 ],
-        date: new Date("2024-09-26"),
+        date: new Date("2024-09-26T00:00:00"),
         type: "gig",
         venue: venues.twelvemonkeys
-    },
-    {
-        name: "Subculture",
-        artist: [
-                    "Chicosci",
-                    "Chelsea Alley",
-                    "Sera",
-                    "Limitbreak Crew",
-                    "Katatonik",
-                    "Sonia",
-                    "Forge",
-                    "13th Verse",
-                    "Skampers",
-                    "South Nova St.",
-                    "Abiso",
-                    "Hellokitten",
-                    "Blindsided",
-                    "Incendio",
-                    "Forbidden Juan",
-                    "Fluidde",
-                ],
-        date: new Date("2024-09-14T17:00:00"),
-        type: "concert",
-        venue: venues.diwangtarlac
     },
     {
         name: "A Night At The Pops",
@@ -1460,34 +890,6 @@ const events = [
         date: new Date("2024-11-15T20:00:00"),
         type: "concert",
         venue: venues.frontier
-    },
-    {
-        name: "Foot Locker Day",
-        artist: [
-                    "Dionela",
-                    "Clara Benin",
-                    "Curtismith",
-                    "Deny",
-                    "Waiian",
-                    "A-Kidz",
-                ],
-        date: new Date("2024-09-14"),
-        announced: new Date("2024-09-10T19:18:00"),
-        type: "mall",
-        venue: venues.ammanilabay
-    },
-    {
-        name: "TRS Tempus Rehearsal Space by EelectricStudio 1st Anniversary",
-        artist: [
-                    "Ligaya Escueta",
-                    "Badwave",
-                    "Irrevocable",
-                    "Eggboy",
-                    "Ang Bandang Shirley",
-                ],
-        date: new Date("2024-09-14"),
-        type: "gig",
-        venue: venues.onetwothree
     },
     {
         name: "Queen of the Night Remembering Whitney",
@@ -1510,34 +912,11 @@ const events = [
         venue: venues.newport
     },
     {
-        name: "Live at the Cozy Cove",
-        artist: [
-                    "Nobita",
-                    "Jayda",
-                    "Arthur Miguel",
-                    "Jose Miguel",
-                ],
-        date: new Date("2024-09-13T18:00:00"),
-        type: "gig",
-        venue: venues.cozycove
-    },
-    {
-        name: "Janine Apat Na Buwan EP Tour",
-        artist: [
-                    "Janine Teñoso",
-                    "Jikamarie",
-                    "Pappel",
-                ],
-        date: new Date("2024-09-13T18:00:00"),
-        type: "gig",
-        venue: venues.dinalan
-    },
-    {
         artist: [
                     "Brownman Revival",
                     "Chechebureche",
                 ],
-        date: new Date("2024-09-28"),
+        date: new Date("2024-09-28T00:00:00"),
         type: "gig",
         venue: venues.twelvemonkeys
     },
@@ -1582,7 +961,7 @@ const events = [
         artist: [
                     "Fujii Kaze",
                 ],
-        date: new Date("2024-12-10"),
+        date: new Date("2024-12-10T20:00:00"),
         type: "concert",
         venue: venues.moaarena
     },
@@ -1633,7 +1012,7 @@ const events = [
         artist: [
                     "Dionela",
                 ],
-        date: new Date("2024-10-18"),
+        date: new Date("2024-10-18T00:00:00"),
         type: "mall",
         venue: venues.uptechnohub
     },
@@ -1641,7 +1020,7 @@ const events = [
         artist: [
                     "Dionela",
                 ],
-        date: new Date("2024-10-27"),
+        date: new Date("2024-10-27T00:00:00"),
         type: "mall",
         venue: venues.amfeliz
     },
@@ -1649,7 +1028,7 @@ const events = [
         artist: [
                     "Dionela",
                 ],
-        date: new Date("2024-11-09"),
+        date: new Date("2024-11-09T00:00:00"),
         type: "mall",
         venue: venues.amharborpoint
     },
@@ -1657,7 +1036,7 @@ const events = [
         artist: [
                     "Dionela",
                 ],
-        date: new Date("2024-11-15"),
+        date: new Date("2024-11-15T00:00:00"),
         type: "mall",
         venue: venues.marqueemall
     },
@@ -1665,7 +1044,7 @@ const events = [
         artist: [
                     "Dionela",
                 ],
-        date: new Date("2024-11-16"),
+        date: new Date("2024-11-16T00:00:00"),
         type: "mall",
         venue: venues.amcentralbloc
     },
@@ -1673,7 +1052,7 @@ const events = [
         artist: [
                     "Dionela",
                 ],
-        date: new Date("2024-11-30"),
+        date: new Date("2024-11-30T00:00:00"),
         type: "mall",
         venue: venues.amthe30th
     },
@@ -1824,7 +1203,7 @@ const events = [
         artist: [
                     "Dua Lipa",
                 ],
-        date: new Date("2024-11-13"),
+        date: new Date("2024-11-13T00:00:00"),
         type: "concert",
         venue: venues.pharena
     },
@@ -1891,7 +1270,7 @@ const events = [
         artist: [
                     "Porter Robinson",
                 ],
-        date: new Date("2024-12-08"),
+        date: new Date("2024-12-08T00:00:00"),
         type: "concert",
         venue: venues.podiumhall
     },
@@ -1957,7 +1336,7 @@ const events = [
         artist: [
                     "LANY",
                 ],
-        date: new Date("2024-10-12"),
+        date: new Date("2024-10-12T00:00:00"),
         type: "concert",
         venue: venues.pharena
     },
@@ -1966,7 +1345,7 @@ const events = [
         artist: [
                     "LANY",
                 ],
-        date: new Date("2024-10-13"),
+        date: new Date("2024-10-13T00:00:00"),
         type: "concert",
         venue: venues.waterfronthotel
     },
@@ -1975,7 +1354,7 @@ const events = [
         artist: [
                     "LANY",
                 ],
-        date: new Date("2024-10-14"),
+        date: new Date("2024-10-14T00:00:00"),
         type: "concert",
         venue: venues.waterfronthotel
     },
@@ -1984,7 +1363,7 @@ const events = [
         artist: [
                     "LANY",
                 ],
-        date: new Date("2024-10-15"),
+        date: new Date("2024-10-15T00:00:00"),
         type: "concert",
         venue: venues.waterfronthotel
     },
@@ -2025,7 +1404,7 @@ const events = [
                     "Chocolate Factory",
                     "DJ Kate Jagdon",
                 ],
-        date: new Date("2024-12-03"),
+        date: new Date("2024-12-03T00:00:00"),
         announced: new Date("2024-09-14T10:00:00"),
         type: "concert",
         venue: venues.moaarena
@@ -2047,7 +1426,7 @@ const events = [
                     "Parokya Ni Edgar",
                     "Soundcheckers",
                 ],
-        date: new Date("2024-09-24"),
+        date: new Date("2024-09-24T00:00:00"),
         type: "gig",
         venue: venues.twelvemonkeys
     },
@@ -2067,7 +1446,7 @@ const events = [
         artist: [
                     "Stonefree",
                 ],
-        date: new Date("2024-09-20"),
+        date: new Date("2024-09-20T00:00:00"),
         type: "gig",
         venue: venues.kalmabar
     },
@@ -2083,7 +1462,7 @@ const events = [
         artist: [
                     "NIKI",
                 ],
-        date: new Date("2025-02-11"),
+        date: new Date("2025-02-11T00:00:00"),
         type: "concert",
         venue: venues.tba
     },
@@ -2091,7 +1470,7 @@ const events = [
         artist: [
                     "NIKI",
                 ],
-        date: new Date("2025-02-12"),
+        date: new Date("2025-02-12T00:00:00"),
         type: "concert",
         venue: venues.tba
     },
@@ -2099,7 +1478,7 @@ const events = [
         artist: [
                     "Jung Hae In",
                 ],
-        date: new Date("2024-12-21"),
+        date: new Date("2024-12-21T00:00:00"),
         type: "concert",
         venue: venues.tba
     },
@@ -2124,7 +1503,7 @@ const events = [
                     "Matt Wilson",
                     "Earl Agustin",
                 ],
-        date: new Date("2024-09-21"),
+        date: new Date("2024-09-21T00:00:00"),
         announced: new Date("2024-09-14T19:59:00"),
         type: "gig",
         venue: venues.vivacafe
@@ -2203,7 +1582,7 @@ const events = [
                     "The Wamblecropt",
                     "Ssunn",
                 ],
-        date: new Date("2024-09-17"),
+        date: new Date("2024-09-17T00:00:00"),
         type: "gig",
         venue: venues.bistro
     },
@@ -2298,26 +1677,40 @@ const events = [
         name: "Sugar Hiccup - MANILA",
         artist: [
                     "Sugar Hiccup",
+                    "Barbie Almalbis",
+                    "Taken By Cars",
+                    "Aunt Robert",
+                    "The Purest Blue",
                 ],
-        date: new Date("2024-10-19"),
+        date: new Date("2024-10-19T00:00:00"),
         type: "gig",
-        venue: venues.tba
+        venue: venues.onetwothree
     },
     {
         name: "Sugar Hiccup - BAGUIO",
         artist: [
                     "Sugar Hiccup",
+                    "Kahel",
+                    "Medyo Maybe",
+                    "Turncoats",
+                    "Monochrome",
+                    "Transmission Division",
                 ],
-        date: new Date("2024-10-25"),
+        date: new Date("2024-10-25T00:00:00"),
         type: "gig",
-        venue: venues.tba
+        venue: venues.cantobogchi
     },
     {
         name: "Sugar Hiccup - CEBU",
         artist: [
                     "Sugar Hiccup",
+                    "Sheila and the Insects",
+                    "KRNA",
+                    "Folding Bed",
+                    "Bedtime Television",
+                    "Coney Reyes on Camera",
                 ],
-        date: new Date("2024-10-26"),
+        date: new Date("2024-10-26T00:00:00"),
         type: "gig",
         venue: venues.tba
     },
@@ -2364,7 +1757,7 @@ const events = [
                     "Gemini Norawit",
                     "Fourth Nattawat",
                 ],
-        date: new Date("2025-01-25"),
+        date: new Date("2025-01-25T00:00:00"),
         type: "concert",
         venue: venues.tba
     },
@@ -2386,7 +1779,7 @@ const events = [
         artist: [
                     "Loonie",
                 ],
-        date: new Date("2024-09-21"),
+        date: new Date("2024-09-21T00:00:00"),
         type: "gig",
         venue: venues.takeover
     },
@@ -2417,7 +1810,7 @@ const events = [
                     "Nisha & The Verse",
                     "RAV4",
                 ],
-        date: new Date("2024-09-27"),
+        date: new Date("2024-09-27T00:00:00"),
         type: "gig",
         venue: venues.landos
     },
@@ -2429,9 +1822,9 @@ const events = [
                     "The Dawn",
                     "Cup of Joe",
                 ],
-        date: new Date("2024-10-31"),
+        date: new Date("2024-10-31T00:00:00"),
         announced: new Date("YYYY-MM-DDThh:mm:ss"),
-        type: "",
+        type: "concert",
         venue: venues.tba
     },
     {
@@ -2458,11 +1851,270 @@ const events = [
         venue: venues.araneta
     },
     {
+        artist: [
+                    "Philippine Philharmonic Orchestra",
+                ],
+        date: new Date("2024-09-27T19:30:00"),
+        type: "concert",
+        venue: venues.samsungperforming
+    },
+    {
+        artist: [
+                    "Philippine Madrigal Singers",
+                ],
+        date: new Date("2024-10-05T20:00:00"),
+        type: "concert",
+        venue: venues.piccplenary
+    },
+    {
+        artist: [
+                    "Ice Seguerra",
+                ],
+        date: new Date("2024-11-08T20:00:00"),
+        type: "concert",
+        venue: venues.musicmuseum
+    },
+    {
+        artist: [
+                    "Lea Salonga",
+                ],
+        date: new Date("2024-11-04T20:00:00"),
+        type: "concert",
+        venue: venues.theatresolaire
+    },
+    {
+        artist: [
+                    "Lea Salonga",
+                ],
+        date: new Date("2024-11-05T20:00:00"),
+        type: "concert",
+        venue: venues.theatresolaire
+    },
+    {
+        artist: [
+                    "Philippine Philharmonic Orchestra",
+                    "Arman Ferrer",
+                    "Lara Maigue",
+                    "Camille Lopez-Molina",
+                    "Cris Villonco",
+                    "Diomedes Saraza, Jr.",
+                    "Jonathan Velasco", 
+                    "Alice Reyes Dance Philippines",
+                    "Philippine Madrigal Singers",
+                ],
+        date: new Date("2024-11-22T19:30:00"),
+        type: "concert",
+        venue: venues.samsungperforming
+    },
+    {
+        artist: [
+                    "Frozen in Concert",
+                ],
+        date: new Date("2024-11-16T17:00:00"),
+        type: "concert",
+        venue: venues.samsungperforming
+    },
+    {
+        artist: [
+                    "Frozen in Concert",
+                ],
+        date: new Date("2024-11-17T14:00:00"),
+        type: "concert",
+        venue: venues.samsungperforming
+    },
+    {
+        name: "2007 Reunion Concert The Repeat",
+        artist: [
+                    "The Philippine Madrigal Singers",
+                ],
+        date: new Date("2024-12-29T17:00:00"),
+        type: "concert",
+        venue: venues.theatresolaire
+    },
+    {
+        artist: [
+                    "The Manila'Bang Show",
+                ],
+        date: new Date("2024-11-14T10:00:00"),
+        type: "other",
+        venue: venues.spaceoneayala
+    },
+    {
+        artist: [
+                    "The Manila'Bang Show",
+                ],
+        date: new Date("2024-11-15T10:00:00"),
+        type: "other",
+        venue: venues.spaceoneayala
+    },
+    {
+        artist: [
+                    "The Manila'Bang Show",
+                ],
+        date: new Date("2024-11-16T10:00:00"),
+        type: "other",
+        venue: venues.spaceoneayala
+    },
+    {
+        artist: [
+                    "The Manila'Bang Show",
+                ],
+        date: new Date("2024-11-17T10:00:00"),
+        type: "other",
+        venue: venues.spaceoneayala
+    },
+    {
+        artist: [
+                    "Manila International Book Fair",
+                ],
+        date: new Date("2025-09-10T00:00:00"),
+        announced: new Date("2024-09-15T20:00:00"),
+        type: "other",
+        venue: venues.tba
+    },
+    {
+        artist: [
+                    "Manila International Book Fair",
+                ],
+        date: new Date("2025-09-11T00:00:00"),
+        announced: new Date("2024-09-15T20:00:00"),
+        type: "other",
+        venue: venues.tba
+    },
+    {
+        artist: [
+                    "Manila International Book Fair",
+                ],
+        date: new Date("2025-09-12T00:00:00"),
+        announced: new Date("2024-09-15T20:00:00"),
+        type: "other",
+        venue: venues.tba
+    },
+    {
+        artist: [
+                    "Manila International Book Fair",
+                ],
+        date: new Date("2025-09-13T00:00:00"),
+        announced: new Date("2024-09-15T20:00:00"),
+        type: "other",
+        venue: venues.tba
+    },
+    {
+        artist: [
+                    "Manila International Book Fair",
+                ],
+        date: new Date("2025-09-14T00:00:00"),
+        announced: new Date("2024-09-15T20:00:00"),
+        type: "other",
+        venue: venues.tba
+    },
+    {
+        artist: [
+                    "Raymond Lauchengco",
+                ],
+        date: new Date("2024-11-23T20:00:00"),
+        type: "concert",
+        venue: venues.theatresolaire
+    },
+    {
+        artist: [
+                    "Neil Pedrosa",
+                ],
+        date: new Date("2024-09-28T19:30:00"),
+        type: "concert",
+        venue: venues.musicmuseum
+    },
+    {
+        artist: [
+                    "APO Hiking Society",
+                    "The CompanY",
+                ],
+        date: new Date("2024-10-05T20:00:00"),
+        type: "concert",
+        venue: venues.musicmuseum
+    },
+    {
+        artist: [
+                    "3rd Avenue",
+                ],
+        date: new Date("2024-09-26T20:00:00"),
+        type: "concert",
+        venue: venues.musicmuseum
+    },
+    {
+        name: "Kuwagoez to Mow's",
+        artist: [
+                    "Daspan En Walis",
+                    "Salem and the Stellar Cats",
+                    "Tilapayaso",
+                    "medyo maybe",
+                    "Silent Disco",
+                    "Yaelokre",
+                    "MNR MJRTY",
+                ],
+        date: new Date("2024-09-22T18:00:00"),
+        type: "gig",
+        venue: venues.mows
+    },
+    {
+        name: "Takeover Thursday",
+        artist: [
+                    "Eliza Maturan",
+                    "Shanaia Gomez",
+                    "Khimo",
+                    "Waltz",
+                ],
+        date: new Date("2024-09-19T00:00:00"),
+        type: "gig",
+        venue: venues.takeover
+    },
+    {
+        name: "Toyo Single Launch",
+        artist: [
+                    "KZ Tandingan",
+                    "Brian Chong",
+                    "Fana",
+                    "Angela Ken",
+                    "MC Einstein",
+                    "Jem Macatuno",
+                    "Jel Rey",
+                ],
+        date: new Date("2024-09-26T20:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+        type: "gig",
+        venue: venues.takeover
+    },
+    {
+        name: "SunKissed Lola Listening Party",
+        artist: [
+                    "SunKissed Lola",
+                ],
+        date: new Date("2024-09-26T18:00:00"),
+        type: "gig",
+        venue: venues.acuppellacafe
+    },
+    {
+        artist: [
+                    "Waterbomb 2025",
+                ],
+        date: new Date("2025-02-08T00:00:00"),
+        type: "concert",
+        venue: venues.tba
+    },
+    {
+        artist: [
+                    "Waterbomb 2025",
+                ],
+        date: new Date("2025-02-09T00:00:00"),
+        type: "concert",
+        venue: venues.tba
+    },
+    {
         name: "",
         artist: [
                     "",
                 ],
-        date: new Date("YYYY-MM-DDThh:mm:ss"),
+        date: new Date("YYYY-MM-DDT00:00:00"),
         announced: new Date("YYYY-MM-DDThh:mm:ss"),
         type: "",
         venue: venues.tba

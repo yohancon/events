@@ -119,12 +119,12 @@ footer {
 }
 
 .dark > article {
-    border-color: #ffffff95;
+    border-color: #ffffff9d;
 }
 
 .dark > article > .venue,
 .dark > article > .date {
-    color: #ffffff95;
+    color: #ffffff9d;
 }
 
 /* #concert {

@@ -25,6 +25,7 @@
                 <button class="filter" id="concert">Concerts</button>
                 <button class="filter" id="mall">Mall Shows</button>
                 <button class="filter" id="gig">Gigs</button>
+                <button class="filter" id="other">Other</button>
             </section>
         </section>
 
@@ -52,7 +53,7 @@
 
                 const row_date = document.createElement('div');
                 row_date.className = "date";
-                row_date.textContent = `${getDate(item.date)}`;
+                row_date.textContent = `${getDate(item.date)}${getShowTime(item.date)}`;
 
                 row.appendChild(row_head);
                 row.appendChild(row_venue);
@@ -96,6 +97,35 @@
             }
         }
 
+        function getMonthName(num) {
+            switch (num) {
+                case 0:
+                    return "January";
+                case 1:
+                    return "February";
+                case 2:
+                    return "March";
+                case 3:
+                    return "April";
+                case 4:
+                    return "May";
+                case 5:
+                    return "June";
+                case 6:
+                    return "July";
+                case 7:
+                    return "August";
+                case 8:
+                    return "September";
+                case 9:
+                    return "October";
+                case 10:
+                    return "November";
+                case 11:
+                    return "December";
+            }
+        }
+
         function getDate(dateArg) {
             let totalDays = getDaysFromMilliseconds(getFullDate(dateArg) - getFullDate(new Date()));
             switch(totalDays) {
@@ -110,7 +140,25 @@
                 case 6:
                     return getDayOfTheWeek(dateArg);
                 default:
-                    return dateArg.toLocaleDateString();
+                    return `${getMonthName(dateArg.getMonth())} ${dateArg.getDate()}`;
+            }
+        }
+
+        function getShowTime(date){
+            if (date.getHours() > 12) {
+                return ` • ${date.getHours() - 12}${getShowMins(date.getMinutes())} PM`;
+            } else if (date.getHours() == 0) {
+                return ``;
+            } else {
+                return ` • ${date.getHours()}${getShowMins(date.getMinutes())} AM`;
+            }
+        }
+
+        function getShowMins(date) {
+            if(date == 0) {
+                return ``;
+            } else {
+                return `:${date}`;
             }
         }
 
@@ -122,6 +170,7 @@
         
         const finalList = events.filter(item => (item.date >= getFullDate(new Date())));
         finalList.sort((a, b) => a.date - b.date);
+
 
 
         for (const button of btnList) {
@@ -136,7 +185,7 @@
 
                 switch (button.getAttribute('id')) {
                     case 'all': 
-                        list = events.filter(item => (item.date >= getFullDate(new Date())));
+                        list = events.filter(item => (item.date >= getFullDate(new Date()))).slice(0,99);
                         break;
                     default:
                         if(button.classList.contains("clicked")) {
