@@ -53,7 +53,7 @@
 
                 const row_date = document.createElement('div');
                 row_date.className = "date";
-                row_date.textContent = `${getDate(item.date)}${getShowTime(item.date)}`;
+                row_date.textContent = `${getShowTime(item.date)}${getDate(item.date)}`;
 
                 row.appendChild(row_head);
                 row.appendChild(row_venue);
@@ -146,11 +146,11 @@
 
         function getShowTime(date){
             if (date.getHours() > 12) {
-                return ` • ${date.getHours() - 12}${getShowMins(date.getMinutes())} PM`;
+                return `${date.getHours() - 12}${getShowMins(date.getMinutes())} PM • `;
             } else if (date.getHours() == 0) {
                 return ``;
             } else {
-                return ` • ${date.getHours()}${getShowMins(date.getMinutes())} AM`;
+                return `${date.getHours()}${getShowMins(date.getMinutes())} AM • `;
             }
         }
 

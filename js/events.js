@@ -225,10 +225,10 @@ const events = [
     {
         name: "Honne Ouch Album Signing in Manila",
         artist: [
-                    "HONNE",
+                    "HONNE (Meet and Greet)",
                 ],
-        date: new Date("2024-09-23T00:00:00"),
-        type: "gig",
+        date: new Date("2024-09-23T20:00:00"),
+        type: "other",
         venue: venues.tedellis
     },
     {
@@ -403,7 +403,8 @@ const events = [
                     "Side A",
                     "Janine Teñoso",
                 ],
-        date: new Date("2024-09-21T20:00:00"),
+        date: new Date("2024-11-30T20:00:00"),
+        announced: new Date("2024-09-16T13:48:00"),
         type: "concert",
         venue: venues.theatresolaire
     },
@@ -625,7 +626,7 @@ const events = [
                     "Tricia",
                     "Similar Sky",
                 ],
-        date: new Date("2024-09-28T00:00:00"),
+        date: new Date("2024-09-28T08:00:00"),
         type: "concert",
         venue: venues.bridgetowne
     },
@@ -656,7 +657,7 @@ const events = [
                     "DJ Matt",
                     "DJ Via Chan",
                 ],
-        date: new Date("2024-10-05T00:00:00"),
+        date: new Date("2024-10-05T16:00:00"),
         type: "concert",
         venue: venues.citydimare
     },
@@ -750,7 +751,7 @@ const events = [
                     "Matt Maltese",
                     "Janine Teñoso",
                 ],
-        date: new Date("2024-11-09T00:00:00"),
+        date: new Date("2024-11-09T20:00:00"),
         type: "concert",
         venue: venues.skydome
     },
@@ -1503,7 +1504,7 @@ const events = [
                     "Matt Wilson",
                     "Earl Agustin",
                 ],
-        date: new Date("2024-09-21T00:00:00"),
+        date: new Date("2024-09-21T20:50:00"),
         announced: new Date("2024-09-14T19:59:00"),
         type: "gig",
         venue: venues.vivacafe
@@ -1683,6 +1684,7 @@ const events = [
                     "The Purest Blue",
                 ],
         date: new Date("2024-10-19T00:00:00"),
+        announced: new Date("2024-09-15T18:00:00"),
         type: "gig",
         venue: venues.onetwothree
     },
@@ -1697,6 +1699,7 @@ const events = [
                     "Transmission Division",
                 ],
         date: new Date("2024-10-25T00:00:00"),
+        announced: new Date("2024-09-15T18:00:00"),
         type: "gig",
         venue: venues.cantobogchi
     },
@@ -1711,6 +1714,7 @@ const events = [
                     "Coney Reyes on Camera",
                 ],
         date: new Date("2024-10-26T00:00:00"),
+        announced: new Date("2024-09-15T18:00:00"),
         type: "gig",
         venue: venues.tba
     },
@@ -2080,7 +2084,7 @@ const events = [
                     "Jel Rey",
                 ],
         date: new Date("2024-09-26T20:00:00"),
-        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+        announced: new Date("2024-09-15T20:00:00"),
         type: "gig",
         venue: venues.takeover
     },
@@ -2110,6 +2114,247 @@ const events = [
         venue: venues.tba
     },
     {
+        artist: [
+                    "Plastique Tiara",
+                ],
+        date: new Date("2024-10-10T21:00:00"),
+        type: "concert",
+        venue: venues.musicmuseum
+    },
+    {
+        artist: [
+                    "Pulp Spaces+ Pop-Up Market",
+                ],
+        date: new Date("2024-09-20T11:00:00"),
+        type: "other",
+        venue: venues.smmoa
+    },
+    {
+        artist: [
+                    "Pulp Spaces+ Pop-Up Market",
+                ],
+        date: new Date("2024-09-21T11:00:00"),
+        type: "other",
+        venue: venues.smmoa
+    },
+    {
+        artist: [
+                    "Pulp Spaces+ Pop-Up Market",
+                ],
+        date: new Date("2024-09-22T11:00:00"),
+        type: "other",
+        venue: venues.smmoa
+    },
+    {
+        artist: [
+                    "Pulp Spaces+ Pop-Up Market",
+                ],
+        date: new Date("2024-09-23T11:00:00"),
+        type: "other",
+        venue: venues.smmoa
+    },
+    {
+        artist: [
+                    "Pulp Spaces+ Pop-Up Market",
+                ],
+        date: new Date("2024-09-24T11:00:00"),
+        type: "other",
+        venue: venues.smmoa
+    },
+    {
+        artist: [
+                    "Pulp Spaces+ Pop-Up Market",
+                ],
+        date: new Date("2024-09-25T11:00:00"),
+        type: "other",
+        venue: venues.smmoa
+    },
+    {
+        artist: [
+                    "Pulp Spaces+ Pop-Up Market",
+                ],
+        date: new Date("2024-09-26T11:00:00"),
+        type: "other",
+        venue: venues.smmoa
+    },
+    {
+        artist: [
+                    "Pulp Spaces+ Pop-Up Market",
+                ],
+        date: new Date("2024-09-27T11:00:00"),
+        type: "other",
+        venue: venues.smmoa
+    },
+    {
+        artist: [
+                    "Pulp Spaces+ Pop-Up Market",
+                ],
+        date: new Date("2024-09-28T11:00:00"),
+        type: "other",
+        venue: venues.smmoa
+    },
+    {
+        artist: [
+                    "Pulp Spaces+ Pop-Up Market",
+                ],
+        date: new Date("2024-09-29T11:00:00"),
+        type: "other",
+        venue: venues.smmoa
+    },
+    {
+        artist: [
+                    "Ozine Idol Fest",
+                ],
+        date: new Date("2024-09-28T00:00:00"),
+        type: "other",
+        venue: venues.amfairviewterraces,
+        price: "free",
+    },
+    {
+        artist: [
+                    "Ozine Idol Fest",
+                ],
+        date: new Date("2024-09-29T00:00:00"),
+        type: "other",
+        venue: venues.amfairviewterraces,
+        price: "free",
+    },
+    {
+        artist: [
+                    "Alden Richards",
+                    "Kathryn Bernardo",
+                ],
+        date: new Date("2024-10-05T00:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+        type: "mall",
+        venue: venues.amsolenad
+    },
+    {
+        artist: [
+                    "Mayonnaise",
+                    "Autotelic",
+                    "Rangel",
+                    "Happy Three Friends",
+                    "Night Over Alaska",
+                    "Ultraviolet",
+                ],
+        date: new Date("2024-09-19T00:00:00"),
+        type: "gig",
+        price: "free",
+        venue: venues.turningtides
+    },
+    {
+        artist: [
+                    "Manila Symphony Orchestra",
+                ],
+        date: new Date("2024-09-29T18:00:00"),
+        announced: new Date("2024-09-16T21:50:00"),
+        type: "mall",
+        price: "free",
+        venue: venues.amcircuit
+    },
+    {
+        artist: [
+                    "Streetboys",
+                ],
+        date: new Date("2024-11-08T00:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+        type: "concert",
+        price: "concert",
+        venue: venues.frontier
+    },
+    {
+        artist: [
+                    "Ice Seguerra",
+                    "Lockdown",
+                ],
+        date: new Date("2024-09-19T21:30:00"),
+        type: "gig",
+        price: 2000,
+        venue: venues.hardrockmnl
+    },
+    {
+        artist: [
+                    "6cyclemind",
+                ],
+        date: new Date("2024-09-25T21:30:00"),
+        type: "gig",
+        price: 2000,
+        venue: venues.hardrockmnl
+    },
+    {
+        name: "Concerto Ottimo 2",
+        artist: [
+                    "Manila Symphony Orchestra",
+                    "Jenny Sugal",
+                    "Rap Canedo",
+                    "Dane Mercado",
+                    "Darius Miguel",
+                ],
+        date: new Date("2024-10-24T18:00:00"),
+        type: "concert",
+        venue: venues.cprauditorium
+    },
+    {
+        artist: [
+                    "Eevee",
+                    "Brisom",
+                    "The Happy Pill",
+                    "Fitz Shioda",
+                    "Dear Juliet,",
+                    "Pinkmen",
+                    "Fox",
+                ],
+        date: new Date("2024-09-21T20:00:00"),
+        type: "gig",
+        price: 200,
+        venue: venues.unknownpub
+    },
+    {
+        artist: [
+                    "E.J",
+                    "Kyleaux",
+                    "Babydraco",
+                    "C0k3baby Torii",
+                    "Vince Cee",
+                    "Kishan",
+                    "Yameru",
+                    "OhPolo",
+                    "Pray",
+                    "Ich1ka",
+                    "That Room",
+                    "Vons",
+                    "Great North Crib",
+                ],
+        date: new Date("2024-10-12T19:00:00"),
+        announced: new Date("2024-09-16T21:42:00"),
+        type: "gig",
+        venue: venues.fblevents
+    },
+    {
+        artist: [
+                    "A1",
+                ],
+        date: new Date("2025-02-15T20:00:00"),
+        announced: new Date("2024-09-16T12:00:00"),
+        type: "concert",
+        venue: venues.frontier
+    },
+    {
+        name: "Bagong Pilipinas Pagkakaisa Concert",
+        artist: [
+                    "Sandwich",
+                    "Imago",
+                    "Banda Ni Kleggy",
+                    "Al James",
+                ],
+        date: new Date("2024-09-27T17:00:00"),
+        announced: new Date("2024-09-16T17:00:00"),
+        type: "mall",
+        price: "free",
+        venue: venues.vmnomo
+    },
+    {
         name: "",
         artist: [
                     "",
@@ -2117,6 +2362,7 @@ const events = [
         date: new Date("YYYY-MM-DDT00:00:00"),
         announced: new Date("YYYY-MM-DDThh:mm:ss"),
         type: "",
+        price: "",
         venue: venues.tba
     },
 ];
