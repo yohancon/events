@@ -238,7 +238,7 @@ const events = [
                     "Hey June!",
                     "Dilly Dally",
                 ],
-        date: new Date("2024-09-19T00:00:00"),
+        date: new Date("2024-09-19T20:00:00"),
         type: "gig",
         venue: venues.twelvemonkeys
     },
@@ -513,6 +513,18 @@ const events = [
         venue: venues.smxmanila
     },
     {
+        name: "G Fest 2024 - Work in Progress Stage",
+        artist: [
+                    "Y07",
+                    "Ayumi",
+                    "Athalia Badere",
+                    "Camille Rose",
+                ],
+        date: new Date("2024-09-22T15:00:00"),
+        type: "concert",
+        venue: venues.smxmanila
+    },
+    {
         name: "Air Supply The Lost in Love Experience",
         artist: [
                     "Air Supply",
@@ -775,6 +787,15 @@ const events = [
         venue: venues.vivacafe
     },
     {
+        name: "Alamat Live at Viva Cafe Day 2",
+        artist: [
+                    "ALAMAT",
+                ],
+        date: new Date("2024-10-06T18:00:00"),
+        type: "gig",
+        venue: venues.vivacafe
+    },
+    {
         name: "Now Playing: PPOP Showcase",
         artist: [
                     "GenZix",
@@ -869,13 +890,13 @@ const events = [
     {
         artist: [
                     "dwta",
-                    "Paulo",
+                    "Paulo Agudelo",
                     "Ame",
                     "Better Days",
                     "Kiss N Tell",
                     "Helena",
                 ],
-        date: new Date("2024-09-26T00:00:00"),
+        date: new Date("2024-09-26T20:00:00"),
         type: "gig",
         venue: venues.twelvemonkeys
     },
@@ -2353,6 +2374,375 @@ const events = [
         type: "mall",
         price: "free",
         venue: venues.vmnomo
+    },
+    {
+        artist: [
+                    "GB Labrador",
+                    "Muman Reyes",
+                    "Anissa Villaverse",
+                    "Roger Naldo",
+                ],
+        date: new Date("2024-09-28T18:00:00"),
+        type: "gig",
+        venue: venues.kalmabar
+    },
+    {
+        artist: [
+                    "Guy Laroche Pop-Up",
+                ],
+        date: new Date("2024-09-18T00:00:00"),
+        type: "other",
+        venue: venues.oneayala
+    },
+    {
+        artist: [
+                    "Guy Laroche Pop-Up",
+                ],
+        date: new Date("2024-09-19T00:00:00"),
+        type: "other",
+        venue: venues.oneayala
+    },
+    {
+        artist: [
+                    "Guy Laroche Pop-Up",
+                ],
+        date: new Date("2024-09-20T00:00:00"),
+        type: "other",
+        venue: venues.oneayala
+    },
+    {
+        artist: [
+                    "Guy Laroche Pop-Up",
+                ],
+        date: new Date("2024-09-21T00:00:00"),
+        type: "other",
+        venue: venues.oneayala
+    },
+    {
+        artist: [
+                    "Guy Laroche Pop-Up",
+                ],
+        date: new Date("2024-09-22T00:00:00"),
+        type: "other",
+        venue: venues.oneayala
+    },
+    {
+        artist: [
+                    "Imago",
+                ],
+        date: new Date("2024-10-19T19:00:00"),
+        type: "gig",
+        price: 200,
+        venue: venues.olpubtavern
+    },
+    {
+        artist: [
+                    "Big Bad Wolf Books Bacolod",
+                ],
+        date: new Date("2024-09-20T10:00:00"),
+        type: "other",
+        venue: venues.smbacolod
+    },
+    {
+        artist: [
+                    "Big Bad Wolf Books Bacolod",
+                ],
+        date: new Date("2024-09-21T10:00:00"),
+        type: "other",
+        venue: venues.smbacolod
+    },
+    {
+        artist: [
+                    "Big Bad Wolf Books Bacolod",
+                ],
+        date: new Date("2024-09-22T10:00:00"),
+        type: "other",
+        venue: venues.smbacolod
+    },
+    {
+        artist: [
+                    "Big Bad Wolf Books Bacolod",
+                ],
+        date: new Date("2024-09-23T10:00:00"),
+        type: "other",
+        venue: venues.smbacolod
+    },
+    {
+        artist: [
+                    "Big Bad Wolf Books Bacolod",
+                ],
+        date: new Date("2024-09-24T10:00:00"),
+        type: "other",
+        venue: venues.smbacolod
+    },
+    {
+        artist: [
+                    "Big Bad Wolf Books Bacolod",
+                ],
+        date: new Date("2024-09-25T10:00:00"),
+        type: "other",
+        venue: venues.smbacolod
+    },
+    {
+        artist: [
+                    "Big Bad Wolf Books Bacolod",
+                ],
+        date: new Date("2024-09-26T10:00:00"),
+        type: "other",
+        venue: venues.smbacolod
+    },
+    {
+        artist: [
+                    "Big Bad Wolf Books Bacolod",
+                ],
+        date: new Date("2024-09-27T10:00:00"),
+        type: "other",
+        venue: venues.smbacolod
+    },
+    {
+        artist: [
+                    "Big Bad Wolf Books Bacolod",
+                ],
+        date: new Date("2024-09-28T10:00:00"),
+        type: "other",
+        venue: venues.smbacolod
+    },
+    {
+        artist: [
+                    "Big Bad Wolf Books Bacolod",
+                ],
+        date: new Date("2024-09-29T10:00:00"),
+        type: "other",
+        venue: venues.smbacolod
+    },
+    {
+        artist: [
+                    "Urbandub",
+                    "Faintlight",
+                ],
+        date: new Date("2024-10-04T21:00:00"),
+        type: "gig",
+        venue: venues.bistro
+    },
+    {
+        artist: [
+                    "Hallyuniverse",
+                ],
+        date: new Date("2024-09-20T00:00:00"),
+        type: "other",
+        venue: venues.shangrilaplaza
+    },
+    {
+        artist: [
+                    "Hallyuniverse",
+                ],
+        date: new Date("2024-09-21T00:00:00"),
+        type: "other",
+        venue: venues.shangrilaplaza
+    },
+    {
+        artist: [
+                    "Hallyuniverse",
+                ],
+        date: new Date("2024-09-22T00:00:00"),
+        type: "other",
+        venue: venues.shangrilaplaza
+    },
+    {
+        name: "Peace Day Concert",
+        artist: [
+                    "Sponge Cola",
+                ],
+        date: new Date("2024-09-21T20:30:00"),
+        type: "concert",
+        price: "free",
+        venue: venues.moagrounds
+    },
+    {
+        artist: [
+                    "Thyro Alfaro",
+                    "JP Bacallan",
+                ],
+        date: new Date("2024-09-18T17:00:00"),
+        type: "gig",
+        price: "free",
+        venue: venues.venicepiazza
+    },
+    {
+        artist: [
+                    "Kai Honasan",
+                ],
+        date: new Date("2024-09-18T18:00:00"),
+        type: "gig",
+        price: "free",
+        venue: venues.venicepiazza
+    },
+    {
+        artist: [
+                    "KATSEYE",
+                ],
+        date: new Date("2024-09-18T15:00:00"),
+        type: "gig",
+        price: "free",
+        venue: venues.marketmarket
+    },
+    {
+        artist: [
+                    "Anna Akana",
+                ],
+        date: new Date("2025-02-16T20:00:00"),
+        type: "concert",
+        venue: venues.samsunghall
+    },
+    {
+        name: "PPOP Fest",
+        artist: [
+                    "Bituin",
+                    "DIV9",
+                    "GEM&I",
+                    "IR1ZZ",
+                    "GenZix",
+                ],
+        date: new Date("2024-09-27T17:00:00"),
+        type: "mall",
+        price: "free",
+        venue: venues.smmakati
+    },
+    {
+        artist: [
+                    "Big Bad Wolf Books Manila",
+                ],
+        date: new Date("2024-09-18T10:00:00"),
+        type: "other",
+        price: "free",
+        venue: venues.rmmanila
+    },
+    {
+        artist: [
+                    "Big Bad Wolf Books Manila",
+                ],
+        date: new Date("2024-09-19T10:00:00"),
+        type: "other",
+        price: "free",
+        venue: venues.rmmanila
+    },
+    {
+        artist: [
+                    "Big Bad Wolf Books Manila",
+                ],
+        date: new Date("2024-09-20T10:00:00"),
+        type: "other",
+        price: "free",
+        venue: venues.rmmanila
+    },
+    {
+        artist: [
+                    "Big Bad Wolf Books Manila",
+                ],
+        date: new Date("2024-09-21T10:00:00"),
+        type: "other",
+        price: "free",
+        venue: venues.rmmanila
+    },
+    {
+        artist: [
+                    "Big Bad Wolf Books Manila",
+                ],
+        date: new Date("2024-09-22T10:00:00"),
+        type: "other",
+        price: "free",
+        venue: venues.rmmanila
+    },
+    {
+        artist: [
+                    "Big Bad Wolf Books Manila",
+                ],
+        date: new Date("2024-09-23T10:00:00"),
+        type: "other",
+        price: "free",
+        venue: venues.rmmanila
+    },
+    {
+        artist: [
+                    "SNTA",
+                ],
+        date: new Date("2024-09-18T20:00:00"),
+        type: "gig",
+        price: "free",
+        venue: venues.vivacafe
+    },
+    {
+        artist: [
+                    "Southborder",
+                    "Lipstick",
+                    "Nextone",
+                ],
+        date: new Date("2024-09-21T20:00:00"),
+        type: "gig",
+        price: 1000,
+        venue: venues.grimaldirestobar
+    },
+    {
+        artist: [
+                    "G22",
+                ],
+        date: new Date("2024-09-22T19:00:00"),
+        type: "gig",
+        venue: venues.cornerstonestudio
+    },
+    {
+        artist: [
+                    "Milan",
+                ],
+        date: new Date("2024-09-21T00:00:00"),
+        type: "gig",
+        venue: venues.redrhino
+    },
+    {
+        artist: [
+                    "Ria and D' Soulmates",
+                ],
+        date: new Date("2024-09-22T00:00:00"),
+        type: "gig",
+        venue: venues.redrhino
+    },
+    {
+        name: "Starpop Campus Tour",
+        artist: [
+                    "Lyka Estrella",
+                    "Khimo Gumatay",
+                    "Reiven Umali",
+                    "Gello Marquez",
+                    "Jem Macatuno",
+                ],
+        date: new Date("2024-09-20T16:00:00"),
+        type: "gig",
+        venue: venues.lyceumdavao
+    },
+    {
+        name: "Octo Booze Fest 2024",
+        artist: [
+                    "Mayonnaise",
+                    "Nobita",
+                ],
+        date: new Date("2024-10-19T19:00:00"),
+        type: "mall",
+        venue: venues.fmmalabon
+    },
+    {
+        name: "Kyusiklaban Music Festival 2024",
+        artist: [
+                    "KZ Tandingan",
+                    "Bamboo",
+                    "Piolo Pascual",
+                    "Al James",
+                    "Dilaw",
+                    "Silent Sanctuary",
+                    "Carla Cray",
+                ],
+        date: new Date("2024-10-12T13:00:00"),
+        type: "concert",
+        venue: venues.qmc
     },
     {
         name: "",
