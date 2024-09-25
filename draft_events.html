@@ -42,7 +42,7 @@
         }
 
         .highlight {
-            text-decoration: line-through;
+            text-decoration: underline;
             text-decoration-thickness: 20%;
             /* border-bottom: 2px solid black; */
         }
@@ -103,6 +103,12 @@
 
         article.free {
             background-color: #E1FCEF;
+            color: #14804A;
+        }
+
+        article.new {
+            background-color: #FAF0F3;
+            color: #D12953;
         }
 
         article:not(.content_header):hover {
@@ -398,6 +404,16 @@
             }
         }
 
+        function checkAnnounced(dateArg) {
+            let totalDays = getDaysFromMilliseconds(getFullDate(dateArg) - getFullDate(new Date()));
+
+            if (totalDays >= -7) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
         function getShowTitle(obj) {
             if (!(obj.title == "")) {
                 return obj.title;
@@ -505,6 +521,9 @@
         for(const event of finalList) {
             const piece = document.createElement('article');
             piece.classList.add(getEntry(event.paid));
+            if (checkAnnounced(event.announced)) {
+                piece.classList.add('new');
+            }
 
             const eventType = document.createElement('div');
             eventType.classList.add('event_type');
