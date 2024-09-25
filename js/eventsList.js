@@ -14,6 +14,67 @@ const eventList = [
         announced: new Date("YYYY-MM-DDThh:mm:ss"),
     },
     {
+        type: eventType.gig,
+        paid: false,
+        title: "",
+        mainAct: [
+            "Ciudad",
+            "The Itchyworms",
+            "7 Foot Jr.",
+            "The Happy Analogues (with The Freesouls)",
+            "Sandwich",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.onetwothree,
+        date: new Date("2024-09-27T19:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "Himala Arts and Music Festival",
+        mainAct: [
+            "Shanti Dope",
+            "Zack Tabudlo",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.paoaydunes,
+        date: new Date("2024-11-16T00:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.gig,
+        paid: false,
+        title: "",
+        mainAct: [
+            "SunKissed Lola",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.puregoldqi,
+        date: new Date("2024-09-29T16:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.mall,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Dionela",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.uptechnohub,
+        date: new Date("2024-10-18T00:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
         type: eventType.concert,
         paid: true,
         title: "",
@@ -362,7 +423,7 @@ const eventList = [
     {
         type: eventType.gig,
         paid: false,
-        title: "Wish Bus",
+        title: "Wish 107.5 Bus",
         mainAct: [
             "Letters From June",
         ],
@@ -474,7 +535,7 @@ const eventList = [
         ],
         venue: venues.araneta,
         date: new Date("2024-10-06T18:00:00"),
-        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+        announced: new Date("2024-09-12T15:00:00"),
     },
     {
         type: eventType.concert,

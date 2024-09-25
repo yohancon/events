@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
-    <title>Show Calendar • Site Title</title>
+    <title>Show Calendar • yohancon</title>
     <style>
         * {
             box-sizing: border-box;
@@ -48,7 +48,7 @@
         }
 
         main {
-            padding: 0 60px;
+            padding: 0;
             display: flex;
             flex-direction: column;
             row-gap: 80px;
@@ -59,6 +59,7 @@
         }
 
         .main_heading {
+            padding: 0 60px;
             display: flex;
             flex-direction: column;
             align-items: start;
@@ -93,7 +94,7 @@
             justify-content: space-between;
             min-height: 64px;
             align-items: center;
-            padding: 12px 10px;
+            padding: 12px 70px;
         }
 
         article > div {
@@ -101,18 +102,16 @@
             font-size: 16px;
         }
 
-        article.free {
-            background-color: #E1FCEF;
-            color: #14804A;
-        }
+        /* article.new {
+            background: #EBF0FA;
+        } */
 
-        article.new {
-            background-color: #FAF0F3;
-            color: #D12953;
+        article:not(.content_header):nth-child(odd) {
+            background-color: #F2F5FA;
         }
 
         article:not(.content_header):hover {
-            background-color: #EBF0FA;
+            background-color: #F2F5FA;
         }
         
         .content_header {
@@ -135,6 +134,7 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            align-items: center;
         }
 
         .event_title,
@@ -144,6 +144,22 @@
 
         .event_entry {
             flex: 0.5;
+        }
+
+        .event_entry_text {
+            border-radius: 10px;
+            padding: 2px 10px;
+            max-width: fit-content;
+        }
+        
+        .event_entry_text.free {
+            background-color: #E1FCEF;
+            color: #14804A;
+        }
+
+        .event_entry_text.paid {
+            background-color: #E9EDF5;
+            color: #5A6376;
         }
 
         .event_type,
@@ -201,7 +217,7 @@
         }
 
         .site {
-            flex-basis: 187px;
+            flex-basis: auto;
             justify-content: space-between;
             margin-right: auto;
         }
@@ -233,8 +249,12 @@
             color: #454545;
         }
 
+        a.topic_link {
+            text-decoration: none;
+        }
         
-        @media only screen and (max-width: 768px) {
+        
+        @media only screen and (max-width: 800px) {
             .event_venue {
                 color: #464F60;
             }
@@ -245,11 +265,21 @@
             }
 
             nav,
-            main,
+            .main_heading,
             section.endquote_heading,
             footer {
                 padding-left: 20px;
                 padding-right: 20px;
+            }
+
+            nav {
+                padding-top: 24px;
+                padding-bottom: 24px;
+            }
+            
+            article {
+                padding-left: 12px;
+                padding-right: 12px;
             }
 
             .page_title > h1{
@@ -260,51 +290,50 @@
                 font-size: 32px;
             }
 
-            .content_header {
-                padding: 6px 5px;
-            }
-
-            article {
-                padding-left: 5px;
-                padding-right: 5px;
-            }
-
             .event_main_details {
                 column-gap: 8px;
             }
+
+            .site {
+                gap: 16px;
+            }
         }
 
-        @media only screen and (max-width: 425px) {
+        @media only screen and (max-width: 480px) {
             .event_main_details {
                 flex-direction: column;
+                align-items: start;
+                justify-content: center;
             }
 
             nav,
-            main,
+            .main_heading,
             section.endquote_heading,
             footer {
-                padding-left: 8px;
-                padding-right: 8px;
+                padding-left: 16px;
+                padding-right: 16px;
             }
 
             nav {
-                column-gap: px;
+                gap: 12px;
+                padding-top: 16px;
+                padding-bottom: 16px;
             }
 
             .items {
-                column-gap: 28px;
+                column-gap: 20px;
             }
 
             .items_page {
-                font-size: 18px;
+                font-size: 16px;
             }
 
             .page_title > h1{
-                font-size: 40px;
+                font-size: 36px;
             }
 
             .page_title > p {
-                font-size: 20px;
+                font-size: 16px;
             }
 
             .content_header .event_venue {
@@ -336,7 +365,7 @@
 </head>
 <body>
     <nav>
-        <div class="site_name">Site Title</div>
+        <div class="site_name">yohancon</div>
         <section class="items">
             <div class="items_page">About</div>
             <div class="items_page highlight">Calendar</div>
@@ -371,8 +400,8 @@
 
     <footer>
         <section class="site">
-            <div class="site_title">Site Title</div>
-            <div class="socials">2022 &mdash; 2024</div>
+            <div class="site_title">yohancon</div>
+            <div class="socials">A hobby since 2022.</div>
         </section>
 
         <section class="topics">
@@ -385,8 +414,8 @@
     
             <section class="topic">
                 <div class="topic_title">Channels</div>
-                <div class="topic_link">Channel 1</div>
-                <div class="topic_link">Channel 2</div>
+                <a class="topic_link" href="https://www.youtube.com/@yohancon" target="_blank">yohancon</a>
+                <a class="topic_link" href="https://www.youtube.com/@full.storage" target="_blank">Full Storage</a>
             </section>
         </section>
     </footer>
@@ -545,7 +574,12 @@
 
             const eventEntry = document.createElement('div');
             eventEntry.classList.add('event_entry');
-            eventEntry.textContent = getEntry(event.paid);
+
+            const eventEntryText = document.createElement('div');
+            eventEntryText.textContent = getEntry(event.paid);
+            eventEntryText.classList.add('event_entry_text');
+            eventEntryText.classList.add(getEntry(event.paid));
+            eventEntry.appendChild(eventEntryText);
 
             const eventDate = document.createElement('div');
             eventDate.classList.add('event_date');
