@@ -16,7 +16,7 @@ const venues = {
     bar360: "Bar 360",
     bistro: "The 70's Bistro",
     bossbar: "Boss Bar",
-    bridgetowne: "Bridgetowne, Pasig",
+    bridgetowne: "Bridgetowne Open Grounds",
     cantobogchi: "Canto Bogchi Joint",
     centralcraftbalanga: "The Central Craft Beer, Bataan",
     cityboymain: "Cityboy Brew Main",
@@ -35,6 +35,7 @@ const venues = {
     etoncentris: "Eton Centris",
     fblevents: "FBL Events Place",
     festivalmall: "Festival Mall",
+    filinvestgrounds: "Filinvest City Events Grounds",
     fmmalabon: "Fisher Mall Malabon",
     fpjarena: "FPJ Arena",
     frontier: "New Frontier Theater",
@@ -56,6 +57,7 @@ const venues = {
     marketmarket: "Market! Market!",
     marqueemall: "MarQuee Mall",
     metrotent: "Metrotent Convention Center",
+    metrowalk: "Metrowalk Ortigas",
     midastent: "Midas Tent, Midas Hotel and Casino",
     milenya: "Milenya PH",
     moaarena: "SM Mall of Asia Arena",
@@ -117,4 +119,15 @@ const venues = {
     vmtaguig: "Vista Mall Taguig",
     waterfronthotel: "Waterfront Hotel & Casino",
     worldtrade: "World Trade Center",
+    none: "",
 }
+
+const eventType = {
+    comedy: "Stand-Up Comedy",
+    concert: "Concert",
+    fanmeet: "Fan Meet",
+    gig: "Gig",
+    mall: "Mall Show",
+    none: "",
+    other: "Other",
+};

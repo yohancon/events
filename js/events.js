@@ -2745,6 +2745,15 @@ const events = [
         venue: venues.qmc
     },
     {
+        name: "2024 CHEN Fan-Con Beyond The Door Asia Tour",
+        artist: [
+                    "CHEN",
+                ],
+        date: new Date("2024-11-23T00:00:00"),
+        type: "concert",
+        venue: venues.frontier
+    },
+    {
         name: "",
         artist: [
                     "",
@@ -2754,5 +2763,22 @@ const events = [
         type: "",
         price: "",
         venue: venues.tba
+    },
+];
+
+const eventList = [
+    {
+        type: "",
+        paid: false,
+        title: "",
+        mainAct: [
+            "",
+        ],
+        guests: [
+            ""
+        ],
+        venue: venues.tba,
+        date: new Date("YYYY-MM-DDT00:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
     },
 ];
