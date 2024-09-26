@@ -545,6 +545,7 @@
 
         const board = document.querySelector('.main_content');
         const finalList = eventList.filter(item => (item.date >= getFullDate(new Date())));
+        finalList.sort((a, b) => getShowTitle(a) > getShowTitle(b));
         finalList.sort((a, b) => a.date - b.date);
 
         for(const event of finalList) {

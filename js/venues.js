@@ -59,7 +59,7 @@ const venues = {
     marqueemall: "MarQuee Mall",
     metrotent: "Metrotent Convention Center",
     metrowalk: "Metrowalk Ortigas",
-    midastent: "Midas Tent, Midas Hotel and Casino",
+    midastent: "Midas Tent",
     milenya: "Milenya PH",
     moaarena: "SM Mall of Asia Arena",
     moagrounds: "SM Mall of Asia Concert Grounds",
