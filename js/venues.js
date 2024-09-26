@@ -128,7 +128,7 @@ const venues = {
 }
 
 const eventType = {
-    comedy: "Stand-Up Comedy",
+    comedy: "Comedy",
     concert: "Concert",
     fanmeet: "Fan Meet",
     gig: "Gig",

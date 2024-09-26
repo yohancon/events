@@ -18,6 +18,432 @@ const eventList = [
         paid: true,
         title: "",
         mainAct: [
+            "Last Dinosaurs",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.skydome,
+        date: new Date("2024-12-08T20:00:00"),
+        announced: new Date("2024-09-18T11:59:00"),
+    },
+    {
+        type: eventType.gig,
+        paid: true,
+        title: "",
+        mainAct: [
+            "SunKissed Lola",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.vivacafe,
+        date: new Date("2024-10-02T19:00:00"),
+        announced: new Date("2024-09-26T12:26:00"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "Wish Date: Solace",
+        mainAct: [
+            "Dilaw",
+            "Dionela",
+            "Letters From June",
+            "Arabelle Dela Cruz",
+            "Josh Cullen",
+            "The Itchyworms",
+            "Angeline Quinto",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.moaarena,
+        date: new Date("2024-11-13T19:00:00"),
+        announced: new Date("2024-09-26T09:00:00"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "BOYNEXTDOOR",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.araneta,
+        date: new Date("2025-03-22T00:00:00"),
+        announced: new Date("2024-09-23T13:00:00"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "almost monday",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.skydome,
+        date: new Date("2024-11-18T20:00:00"),
+        announced: new Date("2024-09-25T17:59:00"),
+    },
+    {
+        type: eventType.fanmeet,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Fort",
+            "Peat",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.musicmuseum,
+        date: new Date("2024-11-09T16:00:00"),
+        announced: new Date("2024-09-25T18:00:00"),
+    },
+    {
+        type: eventType.gig,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Imago",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.olpubtavern,
+        date: new Date("2024-10-19T19:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "Frozen In Concert",
+        mainAct: [
+            "",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.samsungperforming,
+        date: new Date("2024-11-17T14:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "Frozen In Concert",
+        mainAct: [
+            "",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.samsungperforming,
+        date: new Date("2024-11-16T17:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.gig,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Gliterrer",
+        ],
+        guests: [
+            "Thirds",
+            "Girlcharmm",
+            "The Mind is a Terrible Thing",
+            "Repetition",
+        ],
+        venue: venues.mows,
+        date: new Date("2024-11-14T19:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Nina",
+        ],
+        guests: [
+            "Ian Veneracion",
+        ],
+        venue: venues.theatresolaire,
+        date: new Date("2024-10-30T20:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.comedy,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Jon Santos",
+        ],
+        guests: [
+            "Apo Hiking Society",
+            "Ice Seguerra",
+            "Viñas Deluxe",
+        ],
+        venue: venues.samsunghall,
+        date: new Date("2024-12-07T20:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.gig,
+        paid: true,
+        title: "Red Letter Day",
+        mainAct: [
+            "Snakefight",
+            "Simpatiko PH",
+            "Plus Two",
+            "Blind Side",
+            "Chains4no1",
+            "Comic's Trip",
+            "Sidra",
+            "Achilles Vee",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.bossbar,
+        date: new Date("2024-11-16T18:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.gig,
+        paid: true,
+        title: "Red Letter Day",
+        mainAct: [
+            "One Click Straight",
+            "Oh, Flamingo!",
+            "Yun",
+            "Jurassic Pards",
+            "F'in Quarrel",
+            "Charleston Music",
+            "Jyve",
+            "That Band Astra",
+            "Band Ni Cat",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.milenya,
+        date: new Date("2024-11-15T18:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.gig,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Tanya Markova",
+        ],
+        guests: [
+            "Barq",
+            "Growing Pains",
+            "People Watching People",
+            "Feverdream",
+            "Arvo",
+            "Ugh!",
+            "Hey, Leona",
+        ],
+        venue: venues.centralcraftbalanga,
+        date: new Date("2024-10-26T17:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.gig,
+        paid: true,
+        title: "Gaboom!",
+        mainAct: [
+            "Teeth",
+            "Sandwich",
+            "Cambio",
+            "Party Pace",
+            "Blaster",
+            "One Click Straight",
+            "Pedicab",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.onetwothree,
+        date: new Date("2024-10-26T18:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Air Supply",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.smxdavao,
+        date: new Date("2024-12-11T19:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Air Supply",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.waterfronthotel,
+        date: new Date("2024-12-09T19:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Air Supply",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.smxbacolod,
+        date: new Date("2024-12-05T19:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Gary Valenciano",
+        ],
+        guests: [
+            "Rhythm N Babes",
+            "Sayawatha",
+        ],
+        venue: venues.marianauditorium,
+        date: new Date("2024-10-11T18:30:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Mass of the Fermenting Dregs",
+            "Death of Heather",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.eastside,
+        date: new Date("2024-11-10T00:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.gig,
+        paid: true,
+        title: "10nta? sa Pusangka2l!",
+        mainAct: [
+            "bird.",
+            "Party Pace",
+            "Cinéma Lumière",
+            "Turning Tendencies",
+            "LANO",
+            "OnlyKwans",
+            "Chain Messages",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.rabbithole,
+        date: new Date("2024-10-04T19:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.gig,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Zild",
+        ],
+        guests: [
+            "One Click Straight",
+            "SHANNi",
+        ],
+        venue: venues.onetwothree,
+        date: new Date("2024-09-28T19:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "SB19",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.araneta,
+        date: new Date("2024-10-27T20:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "SB19",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.araneta,
+        date: new Date("2024-10-26T20:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Josh Cullen",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.frontier,
+        date: new Date("2024-09-28T19:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Orange & Lemons",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.metrotent,
+        date: new Date("2024-10-18T20:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
             "UNIS",
         ],
         guests: [
@@ -67,7 +493,7 @@ const eventList = [
             "",
         ],
         venue: venues.musicmuseum,
-        date: new Date("2024-11-16T00:00:00"),
+        date: new Date("2024-11-16T19:00:00"),
         announced: new Date("YYYY-MM-DDThh:mm:ss"),
     },
     {
@@ -81,7 +507,7 @@ const eventList = [
             "",
         ],
         venue: venues.samsunghall,
-        date: new Date("2024-11-29T00:00:00"),
+        date: new Date("2024-11-29T20:00:00"),
         announced: new Date("2024-09-10T12:00:00"),
     },
     {
@@ -578,7 +1004,7 @@ const eventList = [
     {
         type: eventType.concert,
         paid: true,
-        title: "Himala Arts and Music Festival",
+        title: "Himala sa Buhangin! Arts and Music Festival",
         mainAct: [
             "Shanti Dope",
             "Zack Tabudlo",
@@ -587,7 +1013,7 @@ const eventList = [
             "",
         ],
         venue: venues.paoaydunes,
-        date: new Date("2024-11-16T00:00:00"),
+        date: new Date("2024-11-16T18:00:00"),
         announced: new Date("YYYY-MM-DDThh:mm:ss"),
     },
     {
