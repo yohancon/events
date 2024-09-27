@@ -16,6 +16,325 @@ const eventList = [
     {
         type: eventType.concert,
         paid: true,
+        title: "Horizon Halloween Music Festival",
+        mainAct: [
+            "",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.bridgetowne,
+        date: new Date("2024-10-26T00:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.gig,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Steve Aoki",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.xylo,
+        date: new Date("2024-10-17T22:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "Howlers Manila 3.0 Cosplay & Music Festival",
+        mainAct: [
+            "",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.ccpgrounds,
+        date: new Date("2024-12-07T00:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.gig,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Munimuni",
+            "Autotelic",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.jessnpats,
+        date: new Date("2024-10-05T11:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "YUGYEOM",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.skydome,
+        date: new Date("2024-11-03T18:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "M.A.D.Z. Festival",
+        mainAct: [
+            "",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.ninoystadium,
+        date: new Date("2024-10-12T18:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.gig,
+        paid: false,
+        title: "",
+        mainAct: [
+            "Jikamarie",
+            "Barbie Almalbis",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.elcalle,
+        date: new Date("2024-10-11T20:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.comedy,
+        paid: true,
+        title: "",
+        mainAct: [
+            "SPIT",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.upfilm,
+        date: new Date("2024-10-19T14:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.comedy,
+        paid: true,
+        title: "",
+        mainAct: [
+            "SPIT",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.upfilm,
+        date: new Date("2024-10-19T20:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.gig,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Shamrock",
+        ],
+        guests: [
+            "Pragma",
+            "Let Gravity",
+        ],
+        venue: venues.aromata,
+        date: new Date("2024-10-10T21:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "Circus Music Festival 5 (Soundcheck)",
+        mainAct: [
+            "",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.bridgetowne,
+        date: new Date("2024-09-27T08:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Incognito",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.frontier,
+        date: new Date("2024-11-10T20:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.gig,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Razorback",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.kalmabar,
+        date: new Date("2024-10-04T00:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.gig,
+        paid: false,
+        title: "",
+        mainAct: [
+            "Skylight",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.twelvemonkeys,
+        date: new Date("2024-10-03T00:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.gig,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Johnoy Danao",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.oddcafe,
+        date: new Date("2024-10-05T19:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "TAEMIN",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.araneta,
+        date: new Date("2024-11-24T18:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Rey Valera",
+            "Marco Sison",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.musicmuseum,
+        date: new Date("2024-11-22T19:30:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "Queen of the Night",
+        mainAct: [
+            "Trina Johnson Finn",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.newport,
+        date: new Date("2024-10-11T20:00:00"),
+        announced: new Date("2024-09-11T20:18:00"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "Queen of the Night",
+        mainAct: [
+            "Trina Johnson Finn",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.newport,
+        date: new Date("2024-10-12T20:00:00"),
+        announced: new Date("2024-09-11T20:18:00"),
+    },
+    {
+        type: eventType.gig,
+        paid: true,
+        title: "TL…I’M SICK",
+        mainAct: [
+            "Cherry Society",
+            "Space Moses",
+            "Dreaming Blue",
+            "cheeky things",
+            "Cat Boy Jeepney Drivers",
+            "25hearts",
+            "Sintasan",
+            "i hope you're okay",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.mows,
+        date: new Date("2024-10-06T18:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "The Philippine Madrigal Singers",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.piccplenary,
+        date: new Date("2024-10-05T20:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "The Philippine Madrigal Singers",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.theatresolaire,
+        date: new Date("2024-12-29T17:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
         title: "",
         mainAct: [
             "The Maine",
@@ -167,7 +486,7 @@ const eventList = [
             "",
         ],
         venue: venues.moaarena,
-        date: new Date("2024-11-13T19:00:00"),
+        date: new Date("2024-10-13T19:00:00"),
         announced: new Date("2024-09-26T09:00:00"),
     },
     {
@@ -1086,7 +1405,9 @@ const eventList = [
             "Rob Deniel",
         ],
         guests: [
-            "",
+            "Matt Wilson",
+            "Angelo Garcia",
+            "Andi & Andria Sanchez",
         ],
         venue: venues.vivacafe,
         date: new Date("2024-09-29T18:00:00"),
@@ -1249,7 +1570,7 @@ const eventList = [
             "",
         ],
         venue: venues.amsolenad,
-        date: new Date("2024-10-05T00:00:00"),
+        date: new Date("2024-10-05T17:00:00"),
         announced: new Date("YYYY-MM-DDThh:mm:ss"),
     },
     {
@@ -1572,30 +1893,45 @@ const eventList = [
     {
         type: eventType.gig,
         paid: false,
-        title: "Wish Bus: Hilera",
+        title: "Wish Bus: Hindley Street Country Club",
         mainAct: [
-            "Hilera",
+            "Hindley Street Country Club",
         ],
         guests: [
             "",
         ],
-        venue: venues.araneta,
-        date: new Date("2024-09-26T18:00:00"),
-        announced: new Date("2024-09-26T10:00:00"),
+        venue: venues.etoncentris,
+        date: new Date("2024-09-27T14:00:00"),
+        announced: new Date("2024-09-26T08:30:00"),
     },
     {
         type: eventType.gig,
         paid: false,
-        title: "Wish Bus: Maropok",
+        title: "Wish Bus: Aquila Packing",
         mainAct: [
-            "Maropok",
+            "Aquila Packing",
         ],
         guests: [
             "",
         ],
-        venue: venues.araneta,
-        date: new Date("2024-09-26T16:00:00"),
-        announced: new Date("2024-09-26T10:00:00"),
+        venue: venues.etoncentris,
+        date: new Date("2024-09-27T16:00:00"),
+        announced: new Date("2024-09-26T08:30:00"),
+    },
+    {
+        type: eventType.gig,
+        paid: false,
+        title: "Wish Bus: Realest Cram, Enzo MF",
+        mainAct: [
+            "Realest Cram", 
+            "Enzo MF",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.etoncentris,
+        date: new Date("2024-09-27T18:00:00"),
+        announced: new Date("2024-09-26T08:30:00"),
     },
     {
         type: eventType.gig,
