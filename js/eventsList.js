@@ -18,6 +18,115 @@ const eventList = [
         paid: true,
         title: "",
         mainAct: [
+            "The Maine",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.skydome,
+        date: new Date("2024-09-27T20:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "The Maine",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.skydome,
+        date: new Date("2024-09-28T19:30:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Sugar Hiccup",
+        ],
+        guests: [
+            "Sheila and the Insects",
+            "KRNA",
+            "Folding Bed",
+            "Bedtime Television",
+            "Coney Reyes on Camera",
+        ],
+        venue: venues.none,
+        date: new Date("2024-10-26T00:00:00"),
+        announced: new Date("2024-09-15T18:00:00"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Sugar Hiccup",
+        ],
+        guests: [
+            "Kahel",
+            "Medyo Maybe",
+            "Turncoats",
+            "Monochrome",
+            "Transmission Division",
+        ],
+        venue: venues.cantobogchi,
+        date: new Date("2024-10-25T00:00:00"),
+        announced: new Date("2024-09-15T18:00:00"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Sugar Hiccup",
+        ],
+        guests: [
+            "Barbie Almalbis",
+            "Taken By Cars",
+            "Aunt Robert",
+            "The Purest Blue",
+        ],
+        venue: venues.onetwothree,
+        date: new Date("2024-10-19T00:00:00"),
+        announced: new Date("2024-09-15T18:00:00"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Lea Salonga",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.theatresolaire,
+        date: new Date("2024-11-05T20:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
+            "Lea Salonga",
+        ],
+        guests: [
+            "",
+        ],
+        venue: venues.theatresolaire,
+        date: new Date("2024-11-04T20:00:00"),
+        announced: new Date("YYYY-MM-DDThh:mm:ss"),
+    },
+    {
+        type: eventType.concert,
+        paid: true,
+        title: "",
+        mainAct: [
             "Last Dinosaurs",
         ],
         guests: [

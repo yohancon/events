@@ -550,13 +550,13 @@
                 return -1;
             } 
             
-            if (getShowTitle(a) < getShowTitle(b)) {
+            if (getShowTitle(a) > getShowTitle(b)) {
                 return 1;
             }
             
             return 0;
         });
-        
+
         finalList.sort((a, b) => a.date - b.date);
 
         for(const event of finalList) {
